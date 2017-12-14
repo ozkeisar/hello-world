@@ -8,7 +8,113 @@ var camera = viewer.camera;
 var subject = "אישור השתתפות בחתונה של איתן וגלי המתוקים";
 var whatsappLink = "https://api.whatsapp.com/send?phone=972585990055&text=%D7%90%D7%99%D7%A9%D7%95%D7%A8 %D7%94%D7%A9%D7%AA%D7%AA%D7%A4%D7%95%D7%AA %D7%91%D7%97%D7%AA%D7%95%D7%A0%D7%94 %D7%A9%D7%9C %D7%90%D7%99%D7%AA%D7%9F %D7%95%D7%92%D7%9C%D7%99 %D7%94%D7%9E%D7%AA%D7%95%D7%A7%D7%99%D7%9D%E2%9D%A4";
 var mailLink = "mailto:test@example.com?subject="+subject+"&body=body";
+var buttonStyle = `
+<style>
+    .button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
 
+.button-empty {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.all-line{
+    width: 100%;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.green{
+    background-color: #4CAF50; /* Green */
+}
+
+.blue{
+    background-color: #4CAF50; /* Green */
+}
+
+.center{
+    position: absolute;
+    right: 36%;
+}
+
+.button4 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: BLACK;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button4 span:after {
+  content: '\\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button4:hover span {
+  padding-right: 25px;
+}
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+</style>
+`;
 function openInNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
@@ -84,21 +190,23 @@ var finalPlace = viewer.entities.add({
         outlineColor: Cesium.Color.BLACK
     }});
 
-finalPlace.description = '\
-    <span dir="rtl">\
-<h2>\
-בחר דרך לאשר השתתפות\
-</h2>\
-    <button style="color: BLACK"\
-    onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> \
-    <button style="color: BLACK"\
-    onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>\
-    <p>\
-    <a href="./asserts/img/img1.png" download="איתן וגלי מתחתנים - ההזמנה.png">\
-        <button style="color: BLACK" >הורד את ההזמנה</button>\
-    </a>\
-    </p> \
-</span>';
+finalPlace.description = `
+`+buttonStyle+`
+<span dir="rtl">
+<h2>
+בחר דרך לאשר השתתפות
+</h2>
+    <button style="color: BLACK" class="button-empty button3 "
+    onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
+    <button style="color: BLACK" class="button-empty button3 "
+    onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
+    <p>
+    
+    <a href="./asserts/img/img1.png" download="איתן וגלי מתחתנים - ההזמנה.png">
+        <button style="color: BLACK" class="button button2 green all-line" >הורד את ההזמנה</button>
+    </a>
+    </p>
+</span>`;
 
 
 function wrongAnswer(Entity) {
@@ -122,22 +230,39 @@ function goodAnswer(Entity) {
 //     viewer.flyTo(finalPlace);
 // }
 
+    var Qustion = `
+`+buttonStyle+`
+    <span>
+<h1 dir="rtl">
+
+</h1>
+       <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.goodAnswer(parent.finalPlace)"><span></span></button> 
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.question_1)"><span></span></button>
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.question_1)"><span></span></button>
+</span>`;
+
+
+
 
 setTimeout(function() {
     //do what you need here
 
-    question_1.description = '\
-    <span dir="rtl">\
-<h2>\
+    question_1.description = `\
+    `+buttonStyle+`\
+    <span>\
+<h1 dir="rtl">\
 מהו שמו המלא של איתן?\
-</h2>\
-       <p>1. <button style="color: BLACK"\
-    onClick="parent.goodAnswer(parent.finalPlace)">איתן ישראל קיסר</button></p> \
-    <p>2. <button style="color: BLACK"\
-    onClick="parent.wrongAnswer(parent.question_1)">איתן קיסר</button></p> \
-    <p>3. <button style="color: BLACK"\
-    onClick="parent.wrongAnswer(parent.question_1)">איתן ישועה קיסר</button></p> \
-</span>';
+</h1>\
+       <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.goodAnswer(parent.finalPlace)"><span>איתן ישראל קיסר</span></button> \
+     <button class="button4 all-line" style="vertical-align:middle"\
+    onClick="parent.wrongAnswer(parent.question_1)"><span>איתן קיסר</span></button> \
+     <button class="button4 all-line" style="vertical-align:middle"\
+    onClick="parent.wrongAnswer(parent.question_1)"><span>איתן ישועה קיסר</span></button> \
+</span>`;
 
     // var ellipse = wyoming.ellipse;
     // ellipse.material = '//cesiumjs.org/images/2015/02-02/cats.jpg';
