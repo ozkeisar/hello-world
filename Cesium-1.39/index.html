@@ -37,17 +37,58 @@
     right: 36%;
   }
 
+
+  #container { display:block; }
+
+  @media only screen and (orientation:portrait){
+
+      #container {
+
+          height: 100vw;
+
+          -webkit-transform: rotate(90deg);
+
+          -moz-transform: rotate(90deg);
+
+          -o-transform: rotate(90deg);
+
+          -ms-transform: rotate(90deg);
+
+          transform: rotate(90deg);
+
+      }
+
+  }
+
+  @media only screen and (orientation:landscape){
+
+      #container {
+
+          -webkit-transform: rotate(0deg);
+
+          -moz-transform: rotate(0deg);
+
+          -o-transform: rotate(0deg);
+
+          -ms-transform: rotate(0deg);
+
+          transform: rotate(0deg);
+
+      }
+
+  }
+
+
 </style>
 </head>
-<body id="main_container">
+<body id="main_container" >
 
 
-    <a href="Apps/weddinngInvetation/weddingEnvite.html">
-      <button class="button button2">התחל משחק</button>
+    <a href="Apps/weddinngInvetation/weddingEnvite.html" >
+      <button class="button button2" >התחל משחק</button>
     </a>
 
   <script type="text/javascript">
-
 
 
 

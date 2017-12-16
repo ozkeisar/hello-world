@@ -2,7 +2,11 @@
  * Created by caesa on 11/28/2017.
  */
 
-var viewer = new Cesium.Viewer('cesiumContainer');
+// var viewer = new Cesium.Viewer('cesiumContainer');
+var viewer = new Cesium.Viewer('cesiumContainer', {
+    animation: false,
+    timeline: false
+});
 viewer.infoBox.frame.removeAttribute('sandbox');
 var camera = viewer.camera;
 var subject = "אישור השתתפות בחתונה של איתן וגלי המתוקים";
