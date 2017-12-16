@@ -48,6 +48,25 @@
     <a href="Apps/weddinngInvetation/weddingEnvite.html" >
       <button class="button button2" >התחל משחק</button>
     </a>
+    <script>
+    var show = function() {
+    console.log("Orientation type is " + screen.orientation.type);
+    console.log("Orientation angle is " + screen.orientation.angle);
+    }
+
+    screen.orientation.addEventListener("change", show);
+    window.onload = show;
+    </script>
+
+    <button onclick='screen.orientation.unlock()'>
+        Unlock
+        </button>
+        <button onclick="screen.orientation.lock('portrait')">
+        Lock to portrait
+    </button>
+    <button onclick="screen.orientation.lock('landscape')">
+        Lock to landscape
+
 
   <script type="text/javascript">
 
