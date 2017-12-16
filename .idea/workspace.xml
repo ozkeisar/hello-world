@@ -112,10 +112,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="51" column="12" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="51" selection-end-column="12" />
               <folding>
-                <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+                <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
               </folding>
             </state>
           </provider>
@@ -382,7 +382,7 @@
       <workItem from="1513164617997" duration="953000" />
       <workItem from="1513165786112" duration="7724000" />
       <workItem from="1513240619303" duration="7688000" />
-      <workItem from="1513446236722" duration="2641000" />
+      <workItem from="1513446236722" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="add emprovement">
       <created>1512942461949</created>
@@ -402,7 +402,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31514000" />
+    <option name="totallyTimeSpent" value="32350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -536,7 +536,7 @@
         <state relative-caret-position="833">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
@@ -620,7 +620,7 @@
         <state relative-caret-position="663">
           <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
@@ -704,7 +704,7 @@
         <state relative-caret-position="765">
           <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="36" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
@@ -788,7 +788,7 @@
         <state relative-caret-position="765">
           <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="36" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
@@ -872,7 +872,7 @@
         <state relative-caret-position="935">
           <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
@@ -956,7 +956,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1040,7 +1040,7 @@
         <state relative-caret-position="578">
           <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1141,10 +1141,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="51" column="12" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="51" selection-end-column="12" />
           <folding>
-            <marker date="1513449417202" expanded="true" signature="851:917" ph="..." />
+            <marker date="1513457573691" expanded="true" signature="931:1012" ph="..." />
           </folding>
         </state>
       </provider>
