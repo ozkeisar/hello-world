@@ -25,8 +25,9 @@
 
 
 
-  body	 {
-    background: url(./Apps/weddinngInvetation/asserts/img/img1.png) no-repeat;
+  body {
+      background: url(./Apps/weddinngInvetation/asserts/img/cover_1.jpg) no-repeat;
+      background-size: cover;
   }
 
 
@@ -44,21 +45,40 @@
 </head>
 <body id="main_container" >
 
-    <div>
-        <button onclick="on()">navu cachkgrgkl</button>
-    </div>
-    <!--<a href="Apps/weddinngInvetation/weddingEnvite.html" >-->
-      <!--<button class="button button2"  >התחל משחק</button>-->
-    <!--</a>-->
+
+    <a href="Apps/weddinngInvetation/weddingEnvite.html" >
+      <button class="button button2"  >התחל משחק</button>
+    </a>
 
 
 
   <script type="text/javascript">
 
-    function on() {
-//        screen.orientation.unlock();
-        screen.orientation.lock('landscape');
-    }
+      var isMobile = {
+          Android: function() {
+              return navigator.userAgent.match(/Android/i);
+          },
+          BlackBerry: function() {
+              return navigator.userAgent.match(/BlackBerry/i);
+          },
+          iOS: function() {
+              return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+          },
+          Opera: function() {
+              return navigator.userAgent.match(/Opera Mini/i);
+          },
+          Windows: function() {
+              return navigator.userAgent.match(/IEMobile/i);
+          },
+          any: function() {
+              return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+          }
+      };
+
+      if( isMobile.any() ) {
+          document.body.style.backgroundImage = "url('/Apps/weddinngInvetation/asserts/img/cover_22.jpg')";
+//          alert('Mobile');
+      }
 
       if (window.location.protocol === 'file:') {
           document.body.innerHTML = '';
