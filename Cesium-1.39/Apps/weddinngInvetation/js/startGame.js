@@ -177,11 +177,13 @@ var question_1 = viewer.entities.add({
             -111.05254, 45.002073]),
         height: 0,
         // material : Cesium.Color.RED.withAlpha(0.5),
-        material: './asserts/img/img1.png',
+        material: './asserts/img/InkedQ_1_11.jpg',
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
 });
+question_1.polygon.height = 250000;
+
 
 var finalPlace = viewer.entities.add({
     name:'הגעת להזמנה',
@@ -189,7 +191,7 @@ var finalPlace = viewer.entities.add({
     ellipse : {
         semiMinorAxis : 2500.0,
         semiMajorAxis : 4000.0,
-        material : './asserts/img/img1.png',
+        material : './asserts/img/final_p.jpg',
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }});

@@ -44,9 +44,7 @@ var isMobile = {
 };
 
 if( isMobile.any() ) {
-    player = document.getElementById('player');
-    // player.src = 'some-audio-file-url';
-    player.play();
+
 
     buttonStyle = `
 <style>
@@ -156,4 +154,3 @@ if( isMobile.any() ) {
 </style>
 `;
 }
-
