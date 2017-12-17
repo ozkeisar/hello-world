@@ -4,7 +4,7 @@
     <list default="true" id="861248de-f6a4-4a91-be7a-e02b6bc1b0fb" name="Default" comment="add emprovement">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/index.html" afterPath="$PROJECT_DIR$/Cesium-1.39/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,37 +22,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="weddingEnvite.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="weddingEnvite.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="220">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addEntetis.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addEntetis.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="83">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#587#1188#0" expanded="false" />
-                <marker date="1513532646083" expanded="true" signature="2005:3715" ph="..." />
-                <marker date="1513532646083" expanded="true" signature="2019:2311" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="2646:2741" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="2752:2772" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="2789:2849" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="2866:2948" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="2956:3002" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="3009:3055" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="3064:3107" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="3118:3368" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="3384:3473" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="3495:3601" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="3623:3649" ph="{...}" />
-                <marker date="1513532646083" expanded="true" signature="3677:3706" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="1351:3061" ph="..." />
+                <marker date="1513532902850" expanded="true" signature="1365:1657" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="1992:2087" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2098:2118" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2135:2195" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2212:2294" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2302:2348" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2355:2401" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2410:2453" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2464:2714" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2730:2819" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2841:2947" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="2969:2995" ph="{...}" />
+                <marker date="1513532902850" expanded="true" signature="3023:3052" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -154,9 +154,9 @@
       <list>
         <option value="$PROJECT_DIR$/Cesium-1.39/server.js" />
         <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js" />
-        <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html" />
         <option value="$PROJECT_DIR$/Cesium-1.39/index.html" />
         <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js" />
+        <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html" />
       </list>
     </option>
   </component>
@@ -432,7 +432,7 @@
       <workItem from="1513240619303" duration="7688000" />
       <workItem from="1513446236722" duration="6334000" />
       <workItem from="1513490406676" duration="2348000" />
-      <workItem from="1513530044116" duration="2591000" />
+      <workItem from="1513530044116" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="add emprovement">
       <created>1512942461949</created>
@@ -452,7 +452,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40146000" />
+    <option name="totallyTimeSpent" value="40417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -513,20 +513,20 @@
           <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
             <element signature="e#587#1188#0" expanded="false" />
-            <marker date="1513532646083" expanded="true" signature="2005:3715" ph="..." />
-            <marker date="1513532646083" expanded="true" signature="2019:2311" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2646:2741" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2752:2772" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2789:2849" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2866:2948" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2956:3002" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3009:3055" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3064:3107" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3118:3368" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3384:3473" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3495:3601" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3623:3649" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3677:3706" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1351:3061" ph="..." />
+            <marker date="1513532902850" expanded="true" signature="1365:1657" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1992:2087" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2098:2118" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2135:2195" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2212:2294" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2302:2348" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2355:2401" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2410:2453" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2464:2714" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2730:2819" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2841:2947" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2969:2995" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="3023:3052" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -622,20 +622,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#587#1188#0" expanded="false" />
-            <marker date="1513532646083" expanded="true" signature="2005:3715" ph="..." />
-            <marker date="1513532646083" expanded="true" signature="2019:2311" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2646:2741" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2752:2772" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2789:2849" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2866:2948" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2956:3002" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3009:3055" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3064:3107" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3118:3368" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3384:3473" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3495:3601" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3623:3649" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3677:3706" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1351:3061" ph="..." />
+            <marker date="1513532902850" expanded="true" signature="1365:1657" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1992:2087" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2098:2118" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2135:2195" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2212:2294" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2302:2348" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2355:2401" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2410:2453" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2464:2714" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2730:2819" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2841:2947" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2969:2995" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="3023:3052" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -731,20 +731,20 @@
           <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#587#1188#0" expanded="false" />
-            <marker date="1513532646083" expanded="true" signature="2005:3715" ph="..." />
-            <marker date="1513532646083" expanded="true" signature="2019:2311" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2646:2741" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2752:2772" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2789:2849" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2866:2948" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2956:3002" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3009:3055" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3064:3107" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3118:3368" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3384:3473" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3495:3601" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3623:3649" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3677:3706" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1351:3061" ph="..." />
+            <marker date="1513532902850" expanded="true" signature="1365:1657" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1992:2087" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2098:2118" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2135:2195" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2212:2294" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2302:2348" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2355:2401" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2410:2453" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2464:2714" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2730:2819" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2841:2947" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2969:2995" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="3023:3052" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1353,14 +1353,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1440,25 +1432,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="83">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#587#1188#0" expanded="false" />
-            <marker date="1513532646083" expanded="true" signature="2005:3715" ph="..." />
-            <marker date="1513532646083" expanded="true" signature="2019:2311" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2646:2741" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2752:2772" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2789:2849" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2866:2948" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="2956:3002" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3009:3055" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3064:3107" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3118:3368" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3384:3473" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3495:3601" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3623:3649" ph="{...}" />
-            <marker date="1513532646083" expanded="true" signature="3677:3706" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1351:3061" ph="..." />
+            <marker date="1513532902850" expanded="true" signature="1365:1657" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="1992:2087" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2098:2118" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2135:2195" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2212:2294" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2302:2348" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2355:2401" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2410:2453" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2464:2714" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2730:2819" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2841:2947" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="2969:2995" ph="{...}" />
+            <marker date="1513532902850" expanded="true" signature="3023:3052" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
