@@ -44,8 +44,6 @@ function setKey(event) {
 
 var falseAnswer = viewer.entities.add({
     name:'תשובה לא נכונה',
-
-
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             -57.362022399902344,-17.45940269194599,
@@ -162,19 +160,7 @@ function goodAnswer(Entity) {
 setTimeout(function() {
     //do what you need here
 
-    question_1.description = `\
-    `+buttonStyle+`\
-    <span>\
-<h1 dir="rtl">\
-מהו שמו המלא של איתן?\
-</h1>\
-       <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.finalPlace)"><span>איתן ישראל קיסר</span></button> \
-     <button class="button4 all-line" style="vertical-align:middle"\
-    onClick="parent.wrongAnswer(parent.question_1)"><span>איתן קיסר</span></button> \
-     <button class="button4 all-line" style="vertical-align:middle"\
-    onClick="parent.wrongAnswer(parent.question_1)"><span>איתן ישועה קיסר</span></button> \
-</span>`;
+
 
     // var ellipse = wyoming.ellipse;
     // ellipse.material = '//cesiumjs.org/images/2015/02-02/cats.jpg';
