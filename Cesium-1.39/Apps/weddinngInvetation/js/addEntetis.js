@@ -1,4 +1,18 @@
 var buttonStyle;
+var falsePictures = [
+    './asserts/img/fails/1.jpg',
+    './asserts/img/fails/2.jpg',
+    './asserts/img/fails/3.jpg',
+    './asserts/img/fails/4.jpg',
+    './asserts/img/fails/5.jpg',
+    './asserts/img/fails/6.jpg',
+    './asserts/img/fails/7.jpg',
+    './asserts/img/fails/8.jpg',
+    './asserts/img/fails/9.jpg',
+];
+function randInt(min, max) {
+    return Math.floor(Math.random() * (max -min +1))+min;
+}
 function requestFullScreen() {
 
     var el = document.body;

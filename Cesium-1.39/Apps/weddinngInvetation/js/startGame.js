@@ -110,7 +110,8 @@ finalPlace.description = `
 
 
 function wrongAnswer(Entity) {
-    console.log('falseAnswer');
+    console.log('falseAnswer',randInt(0,10));
+    falseAnswer.ellipse.material = falsePictures[randInt(0,10)];
     viewer.zoomTo(falseAnswer);
     setTimeout(function() {
 
