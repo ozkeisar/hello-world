@@ -17,3 +17,20 @@ var Q2 = viewer.entities.add({
     }
 });
 
+var Q3 = viewer.entities.add({
+    name:'שאלה שלישית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            -30.385093688964844,71.66323089667497,
+            -27.968101501464844,71.66323089667497,
+            -27.814292907714844,71.11632592884088,
+            -30.331663020908252,71.1209533055771
+        ]),
+        height: 0,
+        material: './asserts/img/good/q3.jpg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+

@@ -26,5 +26,20 @@ Q2.description = `
     <button class="button4 all-line" style="vertical-align:middle"
     onClick="parent.wrongAnswer(parent.Q2)"><span>כחול עמוק</span></button>
        <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.finalPlace)"><span>חום פלדה</span></button> 
+    onClick="parent.goodAnswer(parent.Q3)"><span>חום פלדה</span></button> 
+</span>`;
+
+
+Q3.description = `
+`+buttonStyle+`
+    <span>
+<h1 dir="rtl">
+בן כמה איתן?
+</h1>
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.Q3)"><span>21</span></button>
+       <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.goodAnswer(parent.finalPlace)"><span>23</span></button> 
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.Q3)"><span>25</span></button>
 </span>`;
