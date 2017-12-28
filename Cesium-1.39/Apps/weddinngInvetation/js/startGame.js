@@ -44,14 +44,23 @@ function setKey(event) {
 
 var falseAnswer = viewer.entities.add({
     name:'תשובה לא נכונה',
-    position: Cesium.Cartesian3.fromDegrees(64.0304011, -153.1812666),
-    ellipse : {
-        semiMinorAxis : 2500.0,
-        semiMajorAxis : 4000.0,
-        material : './asserts/img/img1.png',
+
+
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            -57.362022399902344,-17.45940269194599,
+            -54.703330993652344,-17.464642709350755,
+            -54.65239778591348,-19.32863158655128,
+            -57.323570251464844,-19.343540769982056
+        ]),
+        height: 0,
+        // material : Cesium.Color.RED.withAlpha(0.5),
+        material: './asserts/img/InkedQ_1_11.jpg',
         outline: true,
         outlineColor: Cesium.Color.BLACK
-    }});
+    }
+
+});
 
 var question_1 = viewer.entities.add({
     name: 'שאלה ראשונה',
@@ -111,12 +120,14 @@ finalPlace.description = `
 
 function wrongAnswer(Entity) {
     console.log('falseAnswer',randInt(0,10));
-    falseAnswer.ellipse.material = falsePictures[randInt(0,10)];
+    // falseAnswer.ellipse.material = falsePictures[randInt(0,10)];
+    falseAnswer.polygon.material = falsePictures[randInt(0,10)];
+
     viewer.zoomTo(falseAnswer);
     setTimeout(function() {
 
         viewer.flyTo(Entity);
-    }, 2000);
+    }, 4000);
 
 }
 function goodAnswer(Entity) {
