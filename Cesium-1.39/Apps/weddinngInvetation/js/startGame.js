@@ -53,37 +53,13 @@ var falseAnswer = viewer.entities.add({
         ]),
         height: 0,
         // material : Cesium.Color.RED.withAlpha(0.5),
-        material: './asserts/img/InkedQ_1_11.jpg',
+        material: falsePictures[randInt(0,10)],
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
 
 });
 
-var question_1 = viewer.entities.add({
-    name: 'שאלה ראשונה',
-    polygon: {
-        hierarchy: Cesium.Cartesian3.fromDegreesArray([
-            -109.080842, 45.002073,
-            -105.91517, 45.002073,
-            -104.058488, 44.996596,
-            -104.053011, 43.002989,
-            -104.053011, 41.003906,
-            -105.728954, 40.998429,
-            -107.919731, 41.003906,
-            -109.04798, 40.998429,
-            -111.047063, 40.998429,
-            -111.047063, 42.000709,
-            -111.047063, 44.476286,
-            -111.05254, 45.002073]),
-        height: 0,
-        // material : Cesium.Color.RED.withAlpha(0.5),
-        material: './asserts/img/InkedQ_1_11.jpg',
-        outline: true,
-        outlineColor: Cesium.Color.BLACK
-    }
-});
-question_1.polygon.height = 250000;
 
 
 var finalPlace = viewer.entities.add({
@@ -117,18 +93,22 @@ finalPlace.description = `
 
 
 function wrongAnswer(Entity) {
-    console.log('falseAnswer',randInt(0,10));
-    // falseAnswer.ellipse.material = falsePictures[randInt(0,10)];
-    falseAnswer.polygon.material = falsePictures[randInt(0,10)];
 
+    viewer.selectedEntity = null;
     viewer.zoomTo(falseAnswer);
     setTimeout(function() {
 
         viewer.flyTo(Entity);
-    }, 4000);
+        setTimeout(function() {
+            viewer.selectedEntity = Entity;
+            console.log('falseAnswer',randInt(0,10));
+            falseAnswer.polygon.material = falsePictures[randInt(0,10)];
+        }, 1000);
+    }, 2500);
 
 }
-function goodAnswer(Entity) {
+function goodAnswer(thisQ,Entity) {
+
     viewer.flyTo(Entity)
         .then(function(result){
             if (result) {
@@ -136,9 +116,6 @@ function goodAnswer(Entity) {
             }
         });
 }
-// function goTofinalPlace() {
-//     viewer.flyTo(finalPlace);
-// }
 
     var Qustion = `
 `+buttonStyle+`
@@ -158,15 +135,7 @@ function goodAnswer(Entity) {
 
 
 setTimeout(function() {
-    //do what you need here
-
-
-
-    // var ellipse = wyoming.ellipse;
-    // ellipse.material = '//cesiumjs.org/images/2015/02-02/cats.jpg';
-
-    // viewer.zoomTo(wyoming);
-    viewer.flyTo(question_1);
+    viewer.flyTo(Q1);
 }, 2000);
 
 

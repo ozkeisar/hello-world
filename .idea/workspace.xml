@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="861248de-f6a4-4a91-be7a-e02b6bc1b0fb" name="Default" comment="add emprovement">
+    <list default="true" id="6032d96e-075f-4026-9d7f-7a35cb4c553f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hello-world.iml" afterPath="$PROJECT_DIR$/.idea/hello-world.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addDes.js" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addDes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addQ.js" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addQ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +28,36 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="weddingEnvite.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="425">
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <marker date="1514542478098" expanded="true" signature="31:1141" ph="..." />
+                <marker date="1514542478098" expanded="true" signature="737:1133" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addQ.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addQ.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <marker date="1514542697821" expanded="true" signature="32:702" ph="{&quot;name&quot;: 'שאלה ראשונה'...}" />
+                <marker date="1514542697821" expanded="true" signature="72:700" ph="{&quot;material&quot;: './asserts/img/InkedQ_1_11.jpg'...}" />
+                <marker date="1514542697821" expanded="true" signature="128:558" ph="[...]" />
+                <marker date="1514542697821" expanded="true" signature="764:1211" ph="{&quot;name&quot;: 'שאלה שניה'...}" />
+                <marker date="1514542697821" expanded="true" signature="801:1209" ph="{&quot;material&quot;: './asserts/img/good/q2.jpg'...}" />
+                <marker date="1514542697821" expanded="true" signature="857:1071" ph="[...]" />
+                <marker date="1514542697821" expanded="true" signature="1244:1692" ph="{&quot;name&quot;: 'שאלה שלישית'...}" />
+                <marker date="1514542697821" expanded="true" signature="1283:1690" ph="{&quot;material&quot;: './asserts/img/good/q3.jpg'...}" />
+                <marker date="1514542697821" expanded="true" signature="1339:1552" ph="[...]" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,75 +65,24 @@
       <file leaf-file-name="addEntetis.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="17">
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding>
-                <element signature="e#1015#1616#0" expanded="false" />
-                <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-                <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-                <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-                <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="startGame.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-                <element signature="e#847#865#0" expanded="false" />
-                <element signature="n#!!block;n#setKey#0" expanded="false" />
-                <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-                <element signature="e#4534#4564#0" expanded="false" />
-                <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-                <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-                <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-                <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-                <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-                <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-                <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
+                <marker date="1514541336529" expanded="false" signature="37:337" ph="[...]" />
+                <marker date="1514541336529" expanded="true" signature="366:427" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="457:998" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="700:772" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="827:996" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="940:990" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1015:1616" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1041:1102" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1131:1195" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1217:1287" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1311:1375" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1401:1463" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1485:1614" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="1640:3386" ph="{...}" />
+                <marker date="1514541336529" expanded="true" signature="3390:5135" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,67 +91,67 @@
       <file leaf-file-name="addDes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addDes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="731">
+              <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
-                <marker date="1514472654728" expanded="true" signature="59:583" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="75:105" ph="..." />
-                <marker date="1514472654728" expanded="false" signature="155:176" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="177:257" ph="..." />
-                <marker date="1514472654728" expanded="false" signature="306:327" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="328:412" ph="..." />
-                <marker date="1514472654728" expanded="false" signature="461:482" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="483:573" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="634:1115" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="649:678" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="724:745" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="746:819" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="865:886" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="887:962" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1011:1032" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1033:1106" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1165:1626" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1180:1199" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1245:1266" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1267:1335" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1384:1405" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1406:1481" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1528:1549" ph="..." />
-                <marker date="1514472654728" expanded="true" signature="1550:1618" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="51:569" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="67:97" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="147:168" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="169:259" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="308:329" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="330:406" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="455:476" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="477:559" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="620:1111" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="635:664" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="710:731" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="732:805" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="851:872" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="873:948" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="997:1018" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="1019:1102" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="1161:1632" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="1176:1195" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="1241:1262" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="1263:1331" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="1380:1401" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="1402:1487" ph="..." />
+                <marker date="1514543542293" expanded="false" signature="1534:1555" ph="..." />
+                <marker date="1514543542293" expanded="true" signature="1556:1624" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
+      <file leaf-file-name="startGame.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="178">
+              <caret line="102" column="43" lean-forward="false" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="43" />
               <folding>
-                <element signature="e#1152#1867#0" expanded="false" />
-                <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="2678:3216" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="2683:2710" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="2731:2743" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="2774:2856" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="2878:2890" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="2921:2997" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="3005:3208" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="3090:3199" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="3115:3127" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="3859:4318" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="3874:3881" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="3930:3951" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="3952:4025" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="4072:4093" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="4094:4168" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="4214:4235" ph="..." />
+                <marker date="1514544373686" expanded="true" signature="4236:4310" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addQ.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addQ.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>index</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,24 +159,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Cesium-1.39/server.js" />
-        <option value="$PROJECT_DIR$/Cesium-1.39/index.html" />
-        <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js" />
-        <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js" />
         <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html" />
-        <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addDes.js" />
         <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addQ.js" />
+        <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addDes.js" />
+        <option value="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Cesium-1.39/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -311,168 +291,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cesium-1.39" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddinngInvetation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asserts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cesium-1.39" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddinngInvetation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asserts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cesium-1.39" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weddinngInvetation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asserts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="good" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -481,66 +315,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="861248de-f6a4-4a91-be7a-e02b6bc1b0fb" name="Default" comment="" />
-      <created>1512933876017</created>
+      <changelist id="6032d96e-075f-4026-9d7f-7a35cb4c553f" name="Default" comment="" />
+      <created>1514542414468</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1512933876017</updated>
-      <workItem from="1512933877701" duration="3805000" />
-      <workItem from="1512940337944" duration="1878000" />
-      <workItem from="1513155670730" duration="5633000" />
-      <workItem from="1513161546194" duration="1192000" />
-      <workItem from="1513164617997" duration="953000" />
-      <workItem from="1513165786112" duration="7724000" />
-      <workItem from="1513240619303" duration="7688000" />
-      <workItem from="1513446236722" duration="6334000" />
-      <workItem from="1513490406676" duration="2348000" />
-      <workItem from="1513530044116" duration="4439000" />
-      <workItem from="1513937883813" duration="1361000" />
-      <workItem from="1514233513553" duration="1209000" />
-      <workItem from="1514463343436" duration="1303000" />
-      <workItem from="1514465341723" duration="3760000" />
-      <workItem from="1514472389670" duration="527000" />
+      <updated>1514542414468</updated>
+      <workItem from="1514542416381" duration="1932000" />
     </task>
-    <task id="LOCAL-00001" summary="add emprovement">
-      <created>1512942461949</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1512942461950</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add emprovement">
-      <created>1513248723298</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1513248723298</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50154000" />
+    <option name="totallyTimeSpent" value="1932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21130952" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3797054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -556,1034 +361,120 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add emprovement" />
-    <option name="LAST_COMMIT_MESSAGE" value="add emprovement" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="5" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="425">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
-            <element signature="e#1015#1616#0" expanded="false" />
-            <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#1015#1616#0" expanded="false" />
-            <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="1" lean-forward="false" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
-          <folding>
-            <element signature="e#1015#1616#0" expanded="false" />
-            <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="e#1015#1616#0" expanded="false" />
-            <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1015#1616#0" expanded="false" />
-            <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="7" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="79" selection-end-column="7" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#1015#1616#0" expanded="false" />
-            <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="83" column="38" lean-forward="true" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/asserts/img/img1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/asserts/img/img11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#1152#1867#0" expanded="false" />
-            <marker date="1513532294320" expanded="true" signature="1006:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#1015#1616#0" expanded="false" />
-            <marker date="1514463380602" expanded="true" signature="1670:3380" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="1684:1976" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2311:2406" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2417:2437" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2454:2514" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2531:2613" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2621:2667" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2674:2720" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2729:2772" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="2783:3033" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3049:3138" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3160:3266" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3288:3314" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3342:3371" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3418:5129" ph="..." />
-            <marker date="1514463380602" expanded="true" signature="3432:3724" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="3740:4070" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4082:4165" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4176:4196" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4213:4265" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4282:4364" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4372:4418" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4425:4471" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4480:4523" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4534:4782" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4798:4887" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="4909:5015" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5037:5063" ph="{...}" />
-            <marker date="1514463380602" expanded="true" signature="5091:5120" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#openInNewTab#0" expanded="false" />
-            <element signature="e#847#865#0" expanded="false" />
-            <element signature="n#!!block;n#setKey#0" expanded="false" />
-            <element signature="n#!!block;n#goodAnswer#0" expanded="false" />
-            <element signature="e#4534#4564#0" expanded="false" />
-            <marker date="1514469781522" expanded="false" signature="3482:3757" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3482:4020" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3487:3514" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3535:3547" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3578:3660" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3682:3694" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3725:3757" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="3809:4012" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3815:4009" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3894:4003" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="3919:3931" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4603:5112" ph="{...}" />
-            <marker date="1514469781522" expanded="true" signature="4649:5108" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4664:4671" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4720:4741" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4742:4815" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="4862:4883" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="4884:4958" ph="..." />
-            <marker date="1514469781522" expanded="false" signature="5004:5025" ph="..." />
-            <marker date="1514469781522" expanded="true" signature="5026:5100" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/weddingEnvite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addDes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <marker date="1514472654728" expanded="true" signature="59:583" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="75:105" ph="..." />
-            <marker date="1514472654728" expanded="false" signature="155:176" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="177:257" ph="..." />
-            <marker date="1514472654728" expanded="false" signature="306:327" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="328:412" ph="..." />
-            <marker date="1514472654728" expanded="false" signature="461:482" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="483:573" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="634:1115" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="649:678" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="724:745" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="746:819" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="865:886" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="887:962" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1011:1032" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1033:1106" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1165:1626" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1180:1199" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1245:1266" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1267:1335" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1384:1405" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1406:1481" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1528:1549" ph="..." />
-            <marker date="1514472654728" expanded="true" signature="1550:1618" ph="..." />
+            <marker date="1514542478098" expanded="true" signature="31:1141" ph="..." />
+            <marker date="1514542478098" expanded="true" signature="737:1133" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addQ.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <marker date="1514542697821" expanded="true" signature="32:702" ph="{&quot;name&quot;: 'שאלה ראשונה'...}" />
+            <marker date="1514542697821" expanded="true" signature="72:700" ph="{&quot;material&quot;: './asserts/img/InkedQ_1_11.jpg'...}" />
+            <marker date="1514542697821" expanded="true" signature="128:558" ph="[...]" />
+            <marker date="1514542697821" expanded="true" signature="764:1211" ph="{&quot;name&quot;: 'שאלה שניה'...}" />
+            <marker date="1514542697821" expanded="true" signature="801:1209" ph="{&quot;material&quot;: './asserts/img/good/q2.jpg'...}" />
+            <marker date="1514542697821" expanded="true" signature="857:1071" ph="[...]" />
+            <marker date="1514542697821" expanded="true" signature="1244:1692" ph="{&quot;name&quot;: 'שאלה שלישית'...}" />
+            <marker date="1514542697821" expanded="true" signature="1283:1690" ph="{&quot;material&quot;: './asserts/img/good/q3.jpg'...}" />
+            <marker date="1514542697821" expanded="true" signature="1339:1552" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <marker date="1514541336529" expanded="false" signature="37:337" ph="[...]" />
+            <marker date="1514541336529" expanded="true" signature="366:427" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="457:998" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="700:772" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="827:996" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="940:990" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1015:1616" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1041:1102" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1131:1195" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1217:1287" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1311:1375" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1401:1463" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1485:1614" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="1640:3386" ph="{...}" />
+            <marker date="1514541336529" expanded="true" signature="3390:5135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addDes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <marker date="1514543542293" expanded="true" signature="51:569" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="67:97" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="147:168" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="169:259" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="308:329" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="330:406" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="455:476" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="477:559" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="620:1111" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="635:664" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="710:731" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="732:805" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="851:872" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="873:948" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="997:1018" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="1019:1102" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="1161:1632" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="1176:1195" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="1241:1262" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="1263:1331" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="1380:1401" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="1402:1487" ph="..." />
+            <marker date="1514543542293" expanded="false" signature="1534:1555" ph="..." />
+            <marker date="1514543542293" expanded="true" signature="1556:1624" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="102" column="43" lean-forward="false" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="43" />
+          <folding>
+            <marker date="1514544373686" expanded="true" signature="2678:3216" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="2683:2710" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="2731:2743" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="2774:2856" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="2878:2890" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="2921:2997" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="3005:3208" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="3090:3199" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="3115:3127" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="3859:4318" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="3874:3881" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="3930:3951" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="3952:4025" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="4072:4093" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="4094:4168" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="4214:4235" ph="..." />
+            <marker date="1514544373686" expanded="true" signature="4236:4310" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
