@@ -59,3 +59,19 @@ var Q3 = viewer.entities.add({
 });
 
 
+
+var Q4 = viewer.entities.add({
+    name:'שאלה רביעית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            34.76499684154987,32.08735369437486,
+            34.76905234158039,32.087371874153824,
+            34.769224002957344,32.085262995671634,
+            34.765050503855264,32.0852993693967
+        ]),
+        height: 0,
+        material: './asserts/img/good/q4.jpg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});

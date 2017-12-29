@@ -98,9 +98,13 @@ function wrongAnswer(Entity) {
     viewer.zoomTo(falseAnswer);
     setTimeout(function() {
 
-        viewer.flyTo(Entity);
+        viewer.flyTo(Entity).then(function(result){
+            if (result) {
+                viewer.selectedEntity = Entity;
+            }
+        });
         setTimeout(function() {
-            viewer.selectedEntity = Entity;
+            // viewer.selectedEntity = Entity;
             console.log('falseAnswer',randInt(0,10));
             falseAnswer.polygon.material = falsePictures[randInt(0,10)];
         }, 1000);
@@ -109,6 +113,7 @@ function wrongAnswer(Entity) {
 }
 function goodAnswer(thisQ,Entity) {
 
+    viewer.selectedEntity = null;
     viewer.flyTo(Entity)
         .then(function(result){
             if (result) {

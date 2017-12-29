@@ -39,7 +39,23 @@ Q3.description = `
     <button class="button4 all-line" style="vertical-align:middle"
     onClick="parent.wrongAnswer(parent.Q3)"><span>21</span></button>
        <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.Q3,parent.finalPlace)"><span>23</span></button> 
+    onClick="parent.goodAnswer(parent.Q3,parent.Q4)"><span>23</span></button> 
     <button class="button4 all-line" style="vertical-align:middle"
     onClick="parent.wrongAnswer(parent.Q3)"><span>25</span></button>
+</span>`;
+
+
+
+Q4.description = `
+`+buttonStyle+`
+    <span>
+<h1 dir="rtl">
+מה שמה המקורי שלי גלי?
+</h1>
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.Q4)"><span>גלי</span></button>
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.Q4)"><span>גליה</span></button>
+       <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.goodAnswer(parent.Q4,parent.finalPlace)"><span>גל</span></button> 
 </span>`;
