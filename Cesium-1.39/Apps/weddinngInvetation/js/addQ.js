@@ -1,16 +1,30 @@
 
 
 var finalPlace = viewer.entities.add({
-    name:'הגעת להזמנה',
-    position: Cesium.Cartesian3.fromDegrees(32.177692, 34.892425),
-    ellipse : {
-        semiMinorAxis : 2500.0,
-        semiMajorAxis : 4000.0,
-        material : './asserts/img/final_p.jpg',
-        outline: true,
-        outlineColor: Cesium.Color.BLACK
-    }});
+        name: 'הגעת להזמנה',
+        polygon: {
+            hierarchy: Cesium.Cartesian3.fromDegreesArray([
+                35.10271579027176, 32.59772490129471,
+                35.111041367053986, 32.59794183134832,
+                35.111556351184845, 32.59324156259936,
+                35.103145031958434, 32.59302467149982
 
+            ]),
+            height: 0,
+            material: './asserts/img/final_p.jpg',
+            outline: true,
+            outlineColor: Cesium.Color.BLACK
+        }
+        // position: Cesium.Cartesian3.fromDegrees(32.177692, 34.892425),
+        // ellipse : {
+        //     semiMinorAxis : 2500.0,
+        //     semiMajorAxis : 4000.0,
+        //     material : './asserts/img/final_p.jpg',
+        //     outline: true,
+        //     outlineColor: Cesium.Color.BLACK
+        // }});
+    }
+);
 
 var Q1 = viewer.entities.add({
     name: 'שאלה ראשונה',
