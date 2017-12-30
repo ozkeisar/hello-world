@@ -10,6 +10,7 @@ var falsePictures = [
     './asserts/img/fails/8.jpg',
     './asserts/img/fails/9.jpg',
 ];
+
 function randInt(min, max) {
     return Math.floor(Math.random() * (max -min +1))+min;
 }
@@ -194,7 +195,7 @@ if( isMobile.any() ) {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;

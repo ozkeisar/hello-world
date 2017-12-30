@@ -42,54 +42,8 @@ function setKey(event) {
     }
 }
 
-var falseAnswer = viewer.entities.add({
-    name:'תשובה לא נכונה',
-    polygon: {
-        hierarchy: Cesium.Cartesian3.fromDegreesArray([
-            -57.362022399902344,-17.45940269194599,
-            -54.703330993652344,-17.464642709350755,
-            -54.65239778591348,-19.32863158655128,
-            -57.323570251464844,-19.343540769982056
-        ]),
-        height: 0,
-        // material : Cesium.Color.RED.withAlpha(0.5),
-        material: falsePictures[randInt(0,10)],
-        outline: true,
-        outlineColor: Cesium.Color.BLACK
-    }
-
-});
 
 
-
-var finalPlace = viewer.entities.add({
-    name:'הגעת להזמנה',
-    position: Cesium.Cartesian3.fromDegrees(32.177692, 34.892425),
-    ellipse : {
-        semiMinorAxis : 2500.0,
-        semiMajorAxis : 4000.0,
-        material : './asserts/img/final_p.jpg',
-        outline: true,
-        outlineColor: Cesium.Color.BLACK
-    }});
-
-finalPlace.description = `
-`+buttonStyle+`
-<span dir="rtl">
-<h2>
-בחר דרך לאשר השתתפות
-</h2>
-    <button style="color: BLACK" class="button-empty button3 "
-    onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
-    <button style="color: BLACK" class="button-empty button3 "
-    onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
-    <p>
-    
-    <a href="./asserts/img/img1.png" download="איתן וגלי מתחתנים - ההזמנה.png">
-        <button style="color: BLACK" class="button button2 green all-line" >הורד את ההזמנה</button>
-    </a>
-    </p>
-</span>`;
 
 
 function wrongAnswer(Entity) {
@@ -114,32 +68,19 @@ function wrongAnswer(Entity) {
 function goodAnswer(thisQ,Entity) {
 
     viewer.selectedEntity = null;
-    viewer.flyTo(Entity)
-        .then(function(result){
+    viewer.flyTo(Entity).then(function (result) {
             if (result) {
                 viewer.selectedEntity = Entity;
             }
         });
 }
 
-    var Qustion = `
-`+buttonStyle+`
-    <span>
-<h1 dir="rtl">
-
-</h1>
-       <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.finalPlace)"><span></span></button> 
-    <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.wrongAnswer(parent.question_1)"><span></span></button>
-    <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.wrongAnswer(parent.question_1)"><span></span></button>
-</span>`;
 
 
 
 
 setTimeout(function() {
+    falseAnswer.polygon.material = falsePictures[randInt(0,10)];
     viewer.flyTo(Q1);
 }, 2000);
 

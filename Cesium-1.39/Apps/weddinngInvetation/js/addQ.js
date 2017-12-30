@@ -1,5 +1,16 @@
 
 
+var finalPlace = viewer.entities.add({
+    name:'הגעת להזמנה',
+    position: Cesium.Cartesian3.fromDegrees(32.177692, 34.892425),
+    ellipse : {
+        semiMinorAxis : 2500.0,
+        semiMajorAxis : 4000.0,
+        material : './asserts/img/final_p.jpg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }});
+
 
 var Q1 = viewer.entities.add({
     name: 'שאלה ראשונה',
@@ -71,6 +82,127 @@ var Q4 = viewer.entities.add({
         ]),
         height: 0,
         material: './asserts/img/good/q4.jpg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+
+
+var Q5 = viewer.entities.add({
+    name:'שאלה חמישית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            35.09862072765827,32.17444781992721,
+            35.10289080440998,32.17455679446031,
+            35.10297863509845,32.1717597401684,
+            35.09848328644944,32.1717688294325
+        ]),
+        height: 0,
+        material: './asserts/img/good/q5.JPG',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+
+
+
+var Q6 = viewer.entities.add({
+    name:'שאלה שישית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            34.96026249602437,29.549850656769742,
+            34.96107252314687,29.549855323421323,
+            34.96110334523706,29.54935132380377,
+            34.9602644504144,29.54935599089640
+        ]),
+        height: 0,
+        material: './asserts/img/good/q6.jpg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+var Q7 = viewer.entities.add({
+    name:'שאלה שביעית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            35.38856282830238,31.451652600701845,
+            35.39255595531654,31.451652600701845,
+            35.39259687066078,31.44945595968893,
+            35.38865268263885,31.44945596905344
+        ]),
+        height: 0,
+        material: './asserts/img/good/q7.jpg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+
+var Q8 = viewer.entities.add({
+    name:'שאלה שמינית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            2.3130619525909424,48.878913139139236,
+            2.390652894973755,48.8807194031716,
+            2.3940861225128174,48.84729295916473,
+            2.312387373829665,48.846620043130
+        ]),
+        height: 0,
+        material: './asserts/img/good/q8.jpeg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+
+var Q9 = viewer.entities.add({
+    name:'שאלה תשיעית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            34.76222578436136,32.06815496600778,
+            34.764393009245396,32.06822770037562,
+            34.76444665342569,32.067063943548675,
+            34.76223115540324,32.06700939529838
+        ]),
+        height: 0,
+        material: './asserts/img/good/q9.jpg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+
+var Q10 = viewer.entities.add({
+    name:'שאלה עשירית',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            46.914710998535156,15.64287417935967,
+            48.815345764160156,15.63229449968329,
+            48.881263732910156,14.486541809732534,
+            46.922301930208164,14.52519075638728
+        ]),
+        height: 0,
+        material: './asserts/img/good/q10.jpeg',
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+});
+
+
+var Q11 = viewer.entities.add({
+    name:'שאלה אחרונה',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            30.193272829055786,48.75389701257956,
+            30.23412823677063,48.75389701257956,
+            30.23584485054016,48.736238542881864,
+            30.194821294146095,48.7361262180267
+        ]),
+        height: 0,
+        material: './asserts/img/good/q11.jpeg',
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
