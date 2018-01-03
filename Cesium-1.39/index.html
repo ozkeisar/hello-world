@@ -4,15 +4,16 @@
 <title>המירוץ להזמנה</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <style>
+
   .button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 2% 4%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 64px;
+    font-size: 622%;
     margin: 16px 8px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -31,7 +32,7 @@
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 22px;
       margin: 16px 8px;
       cursor: pointer;
       -webkit-transition-duration: 0.4s; /* Safari */
@@ -44,7 +45,7 @@
 
   .position5{
       right: 1%;
-      bottom: 18%;
+      bottom: 12%;
       margin: auto;
       position: absolute;
       /*left: 82%;*/
@@ -66,8 +67,8 @@
       position: absolute;
       /*bottom: 42%;*/
       /*left: 34%;*/
-    top: 36%;
-    right: 33%;
+    top: 38%;
+    right: 34.5%;
   }
 
 
@@ -76,7 +77,7 @@
 <body id="main_container" >
 <div>
     <span dir="rtl">
-        <h1 class="middle" id="h1" style="font-size:300%;" align="center">ברוכים הבאים להזמנה לחתונה של איתן וגלי</h1>
+        <h1 class="middle" id="h1" style="font-size:500%;" align="center">ברוכים הבאים להזמנה לחתונה של איתן וגלי</h1>
     </span>
 </div>
 <div class="center">
@@ -87,7 +88,7 @@
 
 <div class="position5">
     <a>
-        <button class="button5 ">ההזמנה לעצלנים</button>
+        <button class="button5 " id="but2">ההזמנה לעצלנים</button>
     </a>
 </div>
 
@@ -120,10 +121,13 @@
           document.body.style.backgroundImage = "url('/Apps/weddinngInvetation/asserts/img/cover_222.jpg')";
           document.getElementById('button').style.boxShadow = "0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19)";
 //          alert('Mobile');
-          document.getElementById('button').style.right = "30%";
+          document.getElementById('button').style.right = "20%";
           document.getElementById('button').style.top = "40%";
           document.getElementById('h1').style.fontSize = "100px";
-//          document.getElementById('h2').style.fontSize = "60px";
+          document.getElementById('but2').style.padding = "25px 55px";
+//          document.getElementById('but2').style.bottom = "0%";
+          document.getElementById('but2').style.fontSize = "37px";
+
 
 
       }
