@@ -12,7 +12,7 @@ finalPlace.description = `
         onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
         <p>
         
-        <a href="./asserts/img/img1.png" download="איתן וגלי מתחתנים - ההזמנה.png">
+        <a href="./asserts/img/img1.png" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
             <button style="color: BLACK" class="button button2 green all-line" >הורד את ההזמנה</button>
         </a>
         </p>
