@@ -62,7 +62,7 @@ function wrongAnswer(Entity) {
     viewer.zoomTo(falseAnswer);
     setTimeout(function() {
 
-        viewer.flyTo(Entity).then(function(result){
+        viewer.zoomTo(Entity).then(function(result){
             if (result) {
                 viewer.selectedEntity = Entity;
             }
@@ -71,8 +71,8 @@ function wrongAnswer(Entity) {
             // viewer.selectedEntity = Entity;
             console.log('falseAnswer',randInt(0,10));
             falseAnswer.polygon.material = falsePictures[randInt(0,10)];
-        }, 1000);
-    }, 2500);
+        }, 100);
+    }, 2800);
 
 }
 function goodAnswer(thisQ,Entity) {
@@ -85,6 +85,32 @@ function goodAnswer(thisQ,Entity) {
         });
 }
 
+function toWeddingPlace() {
+    finalPlace.description = weddingPlace2;
+    finalPlace.name = "הגעת לאולם";
+    viewer.entities.add({
+        name : 'אולמי השרון כפר סבא',
+        position : Cesium.Cartesian3.fromDegrees(34.892431,32.177826),
+        point : {
+            pixelSize : 8,
+            color : Cesium.Color.BLUE,
+            outlineColor : Cesium.Color.WHITE,
+            outlineWidth : 3
+        },
+        label : {
+            text : 'אבס רפכ ןורשה ימלוא',
+            font : '14pt monospace',
+            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+            outlineWidth : 2,
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM,
+            pixelOffset : new Cesium.Cartesian2(0, -9)
+        }
+    });
+    viewer.camera.flyTo({
+            destination : Cesium.Cartesian3.fromDegrees(34.892431,32.177826, 850.0),
+        duration : 20.0
+    });
+}
 
 
 

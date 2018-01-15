@@ -1,4 +1,19 @@
 
+var stagesName = [
+    'שאלה ראשונה',
+    'שאלה שניה',
+    'שאלה שלישית',
+    'שאלה רביעית',
+    'שאלה חמישית',
+    'שאלה שישית',
+    'שאלה שביעית',
+    'שאלה שמינית',
+    'שאלה תשיעית',
+    'שאלה עשירית',
+];
+
+
+// var weddingPlaceFinal =
 
 var finalPlace = viewer.entities.add({
         name: 'הגעת להזמנה',
@@ -14,14 +29,6 @@ var finalPlace = viewer.entities.add({
             outline: true,
             outlineColor: Cesium.Color.BLACK
         }
-        // position: Cesium.Cartesian3.fromDegrees(32.177692, 34.892425),
-        // ellipse : {
-        //     semiMinorAxis : 2500.0,
-        //     semiMajorAxis : 4000.0,
-        //     material : './asserts/img/final_p.jpg',
-        //     outline: true,
-        //     outlineColor: Cesium.Color.BLACK
-        // }});
     }
 );
 
@@ -122,7 +129,7 @@ var Q5 = viewer.entities.add({
 
 
 var Q6 = viewer.entities.add({
-    name:'שאלה שישית',
+    name:stagesName[3],
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             34.96026249602437,29.549850656769742,
@@ -138,7 +145,7 @@ var Q6 = viewer.entities.add({
 });
 
 var Q7 = viewer.entities.add({
-    name:'שאלה שביעית',
+    name:stagesName[4],
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             35.38856282830238,31.451652600701845,
@@ -155,7 +162,7 @@ var Q7 = viewer.entities.add({
 
 
 var Q8 = viewer.entities.add({
-    name:'שאלה שמינית',
+    name:stagesName[5],
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             2.3130619525909424,48.878913139139236,
@@ -172,7 +179,7 @@ var Q8 = viewer.entities.add({
 
 
 var Q9 = viewer.entities.add({
-    name:'שאלה תשיעית',
+    name:stagesName[6],
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             34.76222578436136,32.06815496600778,
@@ -189,7 +196,7 @@ var Q9 = viewer.entities.add({
 
 
 var Q10 = viewer.entities.add({
-    name:'שאלה עשירית',
+    name:stagesName[7],
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             46.914710998535156,15.64287417935967,
@@ -220,3 +227,4 @@ var Q11 = viewer.entities.add({
         outlineColor: Cesium.Color.BLACK
     }
 });
+

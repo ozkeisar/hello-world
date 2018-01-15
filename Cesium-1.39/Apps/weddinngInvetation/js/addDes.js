@@ -3,20 +3,51 @@
 finalPlace.description = `
     `+buttonStyle+`
     <span dir="rtl">
-    <h2>
-    בחר דרך לאשר השתתפות
-    </h2>
+    <h1 align="center">כל הכבוד! הגעת להזמנה!</h1>
+    <!--<h1 align="center">ניצחת במשחק והגעת להזמנה</h1>-->
+    <h2 style="text-align: center;">עין שוקו נובע בדרום רמת הגולן כקילומטר ממערב לקיבוץ מבוא חמה, הצופה לכנרת ואל הרי הגליל</h2>
+    <h2 style="text-align: center;">נוף מקסים</h2>
+    <button style="color: BLACK" class="button button2 green all-line" onClick="parent.toWeddingPlace()" >להזמנה... ולאולם</button>
+
+   
+    <!--<h2>-->
+    <!--בחר דרך לאשר השתתפות-->
+    <!--</h2>-->
+        <!--<button style="color: BLACK" class="button-empty button3 "-->
+        <!--onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> -->
+        <!--<button style="color: BLACK" class="button-empty button3 "-->
+        <!--onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>-->
+        <!--<p>-->
+        <!---->
+        <!--<a href="./asserts/img/img1.png" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">-->
+        <!--</a>-->
+        <!--</p>-->
+    </span>`;
+
+
+
+
+
+let weddingPlace2 = `
+    `+buttonStyle+`
+    <span dir="rtl">
+    <h2>אולם: אולמי השרון</h2>
+    <h2>תאריך: אדר</h2>
+    <h2 style="text-align: center;">נשמח שתאשרו את השתתפותכם באירוע</h2>
+    
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
+        <button style="color: BLACK" class="button-empty button3 "
+        onClick="console.log('in build')">הוסף ליומן</button> 
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
         <p>
         
         <a href="./asserts/img/img1.png" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
-            <button style="color: BLACK" class="button button2 green all-line" >הורד את ההזמנה</button>
+            <button style="color: BLACK" class="button button2 green all-line" >⬇הורד את ההזמנה⬇</button>
         </a>
         </p>
-    </span>`;
+    </span>`
 
 
 var falseAnswer = viewer.entities.add({
@@ -52,7 +83,7 @@ Q1.description = `\
 </span>`;
 
 
-
+/*
 Q2.description = `
 `+buttonStyle+`
     <span>
@@ -64,8 +95,24 @@ Q2.description = `
     <button class="button4 all-line" style="vertical-align:middle"
     onClick="parent.wrongAnswer(parent.Q2)"><span>כחול עמוק</span></button>
        <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.Q2,parent.Q3)"><span>חום פלדה</span></button> 
+    onClick="parent.goodAnswer(parent.Q2,parent.Q3)"><span>חום פלדה</span></button>
+</span>`;*/
+
+
+Q2.description = `
+`+buttonStyle+`
+    <span>
+<h1 dir="rtl">
+מה שמה המקורי שלי גלי?
+</h1>
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.Q2)"><span>גלי</span></button>
+    <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.wrongAnswer(parent.Q2)"><span>גליה</span></button>
+       <button class="button4 all-line" style="vertical-align:middle"
+    onClick="parent.goodAnswer(parent.Q2,parent.Q3)"><span>גל</span></button> 
 </span>`;
+
 
 
 Q3.description = `
@@ -77,44 +124,29 @@ Q3.description = `
     <button class="button4 all-line" style="vertical-align:middle"
     onClick="parent.wrongAnswer(parent.Q3)"><span>21</span></button>
        <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.Q3,parent.Q4)"><span>23</span></button> 
+    onClick="parent.goodAnswer(parent.Q3,parent.Q6)"><span>23</span></button> 
     <button class="button4 all-line" style="vertical-align:middle"
     onClick="parent.wrongAnswer(parent.Q3)"><span>25</span></button>
 </span>`;
 
 
 
-Q4.description = `
-`+buttonStyle+`
-    <span>
-<h1 dir="rtl">
-מה שמה המקורי שלי גלי?
-</h1>
-    <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.wrongAnswer(parent.Q4)"><span>גלי</span></button>
-    <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.wrongAnswer(parent.Q4)"><span>גליה</span></button>
-       <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.Q4,parent.Q5)"><span>גל</span></button> 
-</span>`;
-
-
-
-Q5.description = `
-`+buttonStyle+`
-    <span>
-<h1 dir="rtl">
-מה איתן הכי אוהב לעשות?
-</h1>
-    <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.wrongAnswer(parent.Q5)"><span>לישון</span></button>
-    <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.wrongAnswer(parent.Q5)"><span>לנגן</span></button>
-       <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.goodAnswer(parent.Q5,parent.Q6)"><span>ללמוד תורה</span></button> 
-</span>`;
-
-
+//
+// Q5.description = `
+// `+buttonStyle+`
+//     <span>
+// <h1 dir="rtl">
+// מה איתן הכי אוהב לעשות?
+// </h1>
+//     <button class="button4 all-line" style="vertical-align:middle"
+//     onClick="parent.wrongAnswer(parent.Q5)"><span>לישון</span></button>
+//     <button class="button4 all-line" style="vertical-align:middle"
+//     onClick="parent.wrongAnswer(parent.Q5)"><span>לנגן</span></button>
+//        <button class="button4 all-line" style="vertical-align:middle"
+//     onClick="parent.goodAnswer(parent.Q5,parent.Q6)"><span>ללמוד תורה</span></button>
+// </span>`;
+//
+//
 
 
 
@@ -188,7 +220,7 @@ Q10.description = `
 באיזה מקום בעולם גם גלי וגם איתן היו?
 </h1>
     <button class="button4 all-line" style="vertical-align:middle"
-    onClick="parent.wrongAnswer(parent.Q10)"><span>באר שבע, ישראל</span></button>
+    onClick="parent.wrongAnswer(parent.Q10)"><span>פריז, צרפת</span></button>
     <button class="button4 all-line" style="vertical-align:middle"
     onClick="parent.wrongAnswer(parent.Q10)"><span>ניו יורק, ארה"ב</span></button>
        <button class="button4 all-line" style="vertical-align:middle"

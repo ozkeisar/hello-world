@@ -102,7 +102,7 @@ if( isMobile.any() ) {
 }
 
 .all-line{
-    width: 100%;
+    width: 99%;
 }
 
 .button3:hover {
@@ -191,12 +191,12 @@ if( isMobile.any() ) {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 9px 14px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin: 4px 2px;
+    margin: 2px 1px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
