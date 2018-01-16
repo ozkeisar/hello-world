@@ -2,6 +2,7 @@
  * Created by caesa on 11/28/2017.
  */
 
+Cesium.BingMapsApi.defaultKey = 'AuuP9UJpY_7d3-SqEP81ZmlqrZnH8wJVQF5jHVJO12QLcNMLfQxifx5aSUY-kvgW';
 // var viewer = new Cesium.Viewer('cesiumContainer');
 var viewer = new Cesium.Viewer('cesiumContainer', {
     animation: false,

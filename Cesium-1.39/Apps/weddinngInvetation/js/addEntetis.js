@@ -91,14 +91,14 @@ width: 100%;
   font-weight: bold;
   /*font-size: 15px;*/
   /*padding: 14px;*/
-      padding: 6px 14px;
+      padding: 5.5px 14px;
   transition: all 0.5s;
   cursor: pointer;
   /*margin: 5px;*/
 }
 
 .border-size{
-      padding: 7px 16px;
+      padding: 6.5px 16px;
 }
 
 .button3 {
