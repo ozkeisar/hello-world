@@ -28,7 +28,10 @@ finalPlace.description = `
 
 
 
-let weddingPlace2 = `
+let weddingPlace2;
+
+if( !isMobileDevice ) {
+    weddingPlace2 = `
     `+buttonStyle+`
     <span dir="rtl">
     <h2>אולם: אולמי השרון</h2>
@@ -37,17 +40,41 @@ let weddingPlace2 = `
     
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
-        <button style="color: BLACK" class="button-empty button3 "
-        onClick="console.log('in build')">הוסף ליומן</button> 
+        <button style="color: BLACK" class="button-empty button3"
+        onClick="console.log('in build')">הוסף ליומן</button>        
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
         <p>
-        
         <a href="./asserts/img/img1.png" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
-            <button style="color: BLACK" class="button button2 green all-line" >⬇הורד את ההזמנה⬇</button>
+            <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
         </a>
         </p>
-    </span>`
+    </span>`;
+}else{
+    weddingPlace2 = `
+    `+buttonStyle+`
+    <span dir="rtl">
+    <h2>אולם: אולמי השרון</h2>
+    <h2>תאריך: אדר</h2>
+    <h2 style="text-align: center;">נשמח שתאשרו את השתתפותכם באירוע</h2>
+    
+        <button style="color: BLACK" class="button-empty button3 "
+        onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
+        <p>
+        <button style="color: BLACK" class="button-empty button3"
+        onClick="console.log('in build')">הוסף ליומן</button> 
+        </p>
+        <p>
+        <button style="color: BLACK" class="button-empty button3 "
+        onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
+        </p>
+        <p>
+        <a href="./asserts/img/img1.png" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
+            <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
+        </a>
+        </p>
+    </span>`;
+}
 
 
 var falseAnswer = viewer.entities.add({
@@ -67,6 +94,8 @@ var falseAnswer = viewer.entities.add({
     }
 
 });
+falseAnswer.polygon.height = 4250000;
+
 
 Q1.description = `\
     `+buttonStyle+`\

@@ -10,7 +10,7 @@ var falsePictures = [
     './asserts/img/fails/8.jpg',
     './asserts/img/fails/9.jpg',
 ];
-
+var isMobileDevice ;
 function randInt(min, max) {
     return Math.floor(Math.random() * (max -min +1))+min;
 }
@@ -61,7 +61,7 @@ var isMobile = {
 
 if( isMobile.any() ) {
 
-
+    isMobileDevice = true;
     buttonStyle = `
 <style>
     .button {
@@ -79,21 +79,27 @@ if( isMobile.any() ) {
     transition-duration: 0.4s;
 }
 
-/*.button-empty {*/
-   /*display: inline-block;*/
-  /*border-radius: 0.5px;*/
+.button-empty {
+  background-color: #f4511e;
+width: 100%;
+   display: inline-block;
+  border-radius: 0.4px;
   /*background-color: #4CAF50;*/
-  /*border: none;*/
-  /*color: BLACK;*/
-  /*text-align: center;*/
-  /*font-weight: bold;*/
+  border: none;
+  color: BLACK;
+  text-align: center;
+  font-weight: bold;
   /*font-size: 15px;*/
   /*padding: 14px;*/
-  /*transition: all 0.5s;*/
-  /*cursor: pointer;*/
+      padding: 6px 14px;
+  transition: all 0.5s;
+  cursor: pointer;
   /*margin: 5px;*/
-/*}*/
+}
 
+.border-size{
+      padding: 7px 16px;
+}
 
 .button3 {
     /*background-color: white; */
@@ -102,12 +108,12 @@ if( isMobile.any() ) {
 }
 
 .all-line{
-    width: 99%;
+    width: 100%;
 }
 
 .button3:hover {
-    /*background-color: #f44336;*/
-    /*color: white;*/
+    background-color: #f44336;
+    color: white;
 }
 
 .button2:hover {
