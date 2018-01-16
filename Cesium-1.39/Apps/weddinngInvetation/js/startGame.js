@@ -88,7 +88,7 @@ function goodAnswer(thisQ,Entity) {
 function toWeddingPlace() {
     finalPlace.description = weddingPlace2;
     finalPlace.name = "הגעת לאולם";
-    viewer.entities.add({
+    let weddingPlace = viewer.entities.add({
         name : 'אולמי השרון כפר סבא',
         position : Cesium.Cartesian3.fromDegrees(34.892431,32.177826),
         point : {
@@ -106,6 +106,9 @@ function toWeddingPlace() {
             pixelOffset : new Cesium.Cartesian2(0, -9)
         }
     });
+
+    weddingPlace.description = weddingPlace2;
+
     viewer.camera.flyTo({
             destination : Cesium.Cartesian3.fromDegrees(34.892431,32.177826, 850.0),
         duration : 20.0
