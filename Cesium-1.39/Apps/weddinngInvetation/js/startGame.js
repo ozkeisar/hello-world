@@ -137,8 +137,8 @@ function toWeddingPlace() {
 
 setTimeout(function() {
     falseAnswer.polygon.material = falsePictures[randInt(0,10)];
-    // viewer.flyTo(Q1);
-    viewer.flyTo(finalPlace);
+    viewer.flyTo(Q1);
+    // viewer.flyTo(finalPlace);
 }, 2000);
 
 
