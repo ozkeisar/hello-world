@@ -17,13 +17,29 @@ var subjectBody =  `שם מלא:
            ואני מאחל לכם חיים מאושרים וארוכים
 `;
 var subject = `אישור השתתפות בחתונה של איתן וגלי המתוקים❤
+איתן וגלי החמודים, אני אשמח להשתתף בשמחתכם😇
+ואני מאחל לכם חיים מאושרים וארוכים.
 שם מלא:
 מספר משתתפים:
-איתן וגלי החמודים, אני אשמח להשתתף בשמחתכם😇
-ואני מאחל לכם חיים מאושרים וארוכים.`;
+`;
+
+
+var calendar = {
+    url:'http://www.google.com/calendar/event',
+    action: 'TEMPLATE',
+    text:'החתונה של איתן וגלי המהממים',
+    dates:'20180503T153000Z/20180503T205900Z',
+    details:`קבלת פנים 19:00 
+חופה וקידושין 20:00
+`,
+    location:'אולמי שרון כפר סבא, משעול גיל 1, כפר סבא, ישראל'
+};
+
 var whatsappLink = "https://api.whatsapp.com/send?phone=972585990055&text="+encodeURIComponent(subject);
 var mailLink = "mailto:test@example.com?subject="+subjectHead+"&body="+subjectBody;
-
+var addToCalendar = calendar.url+`?action=`+calendar.action+`&text=`+calendar.text+`&dates=`+calendar.dates+`&details=`+calendar.details+`&location=`+calendar.location;
+// mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News
+//
 function openInNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
@@ -121,7 +137,8 @@ function toWeddingPlace() {
 
 setTimeout(function() {
     falseAnswer.polygon.material = falsePictures[randInt(0,10)];
-    viewer.flyTo(Q1);
+    // viewer.flyTo(Q1);
+    viewer.flyTo(finalPlace);
 }, 2000);
 
 

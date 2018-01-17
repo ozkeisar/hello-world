@@ -19,7 +19,7 @@ if( !isMobileDevice ) {
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
         <button style="color: BLACK" class="button-empty button3"
-        onClick="console.log('in build')">הוסף ליומן</button>        
+        onClick="parent.window.open(parent.addToCalendar)">הוסף ליומן</button>        
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
         <p>
@@ -65,7 +65,7 @@ if( !isMobileDevice ) {
         onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
         <p>
         <button style="color: BLACK" class="button-empty button3"
-        onClick="console.log('in build')">הוסף ליומן</button> 
+        onClick="parent.window.open(parent.addToCalendar)">הוסף ליומן</button> 
         </p>
         <p>
         <button style="color: BLACK" class="button-empty button3 "
