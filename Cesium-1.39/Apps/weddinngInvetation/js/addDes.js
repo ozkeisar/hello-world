@@ -23,7 +23,7 @@ if( !isMobileDevice ) {
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
         <p>
-        <a href="./asserts/pdf/wedding%20envit%20gali%20&%20eitan.pdf" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
+        <a href="./asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
             <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
         </a>
         </p>
@@ -72,7 +72,7 @@ if( !isMobileDevice ) {
         onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
         </p>
         <p>
-        <a href="./asserts/pdf/wedding%20envit%20gali%20&%20eitan.pdf" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
+        <a href="./asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">
             <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
         </a>
         </p>
