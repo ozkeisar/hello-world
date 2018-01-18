@@ -35,8 +35,8 @@ var calendar = {
     location:'אולמי שרון כפר סבא, משעול גיל 1, כפר סבא, ישראל'
 };
 
-var whatsappLink = "https://api.whatsapp.com/send?phone=972585990055&text="+encodeURIComponent(subject);
-var mailLink = "mailto:test@example.com?subject="+subjectHead+"&body="+subjectBody;
+var whatsappLink = "https://api.whatsapp.com/send?phone=972504311556&text="+encodeURIComponent(subject);
+var mailLink = "mailto:galid65432@gmail.com?subject="+subjectHead+"&body="+subjectBody;
 var addToCalendar = calendar.url+`?action=`+calendar.action+`&text=`+calendar.text+`&dates=`+calendar.dates+`&details=`+calendar.details+`&location=`+calendar.location;
 // mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News
 //
