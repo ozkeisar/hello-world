@@ -28,7 +28,7 @@ var calendar = {
     url:'http://www.google.com/calendar/event',
     action: 'TEMPLATE',
     text:'החתונה של איתן וגלי המהממים',
-    dates:'20180503T153000Z/20180503T205900Z',
+    dates:'20180305T153000Z/20180305T205900Z',
     details:`קבלת פנים 19:00 
 חופה וקידושין 20:00
 `,
