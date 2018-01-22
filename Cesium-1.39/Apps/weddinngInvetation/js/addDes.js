@@ -12,10 +12,12 @@ if( !isMobileDevice ) {
     weddingPlace2 = `
     `+buttonStyle+`
     <span dir="rtl">
-    <h2>אולם: אולמי השרון</h2>
-    <h2>תאריך: אדר</h2>
     <h2 style="text-align: center;">נשמח שתאשרו את השתתפותכם באירוע</h2>
-    
+     <p>
+        <a href="https://www.facebook.com/events/589872901358553/?ti=cl" target="_blank" >
+            <button style="color: BLACK" class="button button2 facebook-blue all-line border-size" >הצטרף לאירוע בפייסבוק</button>
+        </a>
+        </p>
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
         <button style="color: BLACK" class="button-empty button3"
@@ -60,16 +62,19 @@ if( !isMobileDevice ) {
     <!--<h4>אולם: אולמי השרון</h4>-->
     <!--<h4>תאריך: אדר</h4>-->
     <h2 style="text-align: center;">נשמח שתאשרו את השתתפותכם באירוע</h2>
-    
+    <p>
+        <button style="color: BLACK" class="button-empty button3 facebook-blue"
+        onClick="parent.window.open('https://www.facebook.com/events/589872901358553/?ti=cl')">לאירוע בפייסבוק</button> 
+        </p>
         <button style="color: BLACK" class="button-empty button3 "
-        onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
+        onClick="parent.openInNewTab(parent.whatsappLink)">אשר בווצאפ</button> 
         <p>
         <button style="color: BLACK" class="button-empty button3"
         onClick="parent.window.open(parent.addToCalendar)">הוסף ליומן</button> 
         </p>
         <p>
         <button style="color: BLACK" class="button-empty button3 "
-        onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
+        onClick="parent.window.open(parent.mailLink)">אשר במייל</button>
         </p>
         <p>
         <a href="./asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" download="איתן וגלי מתחתנים - ההזמנה.png">

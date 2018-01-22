@@ -101,6 +101,10 @@ width: 100%;
       padding: 6.5px 16px;
 }
 
+.facebook-blue{
+    background-color: #3b5998
+}
+
 .button3 {
     /*background-color: white; */
     /*color: black; */
@@ -207,7 +211,9 @@ width: 100%;
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
+.facebook-blue{
+    background-color: #3b5998
+}
 
 .button3 {
     background-color: white; 
