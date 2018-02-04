@@ -79,9 +79,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="92" column="6" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -517,7 +519,7 @@
       <workItem from="1516315712517" duration="599000" />
       <workItem from="1516316396393" duration="1146000" />
       <workItem from="1516652167039" duration="1685000" />
-      <workItem from="1517760890775" duration="1001000" />
+      <workItem from="1517760890775" duration="3336000" />
     </task>
     <task id="LOCAL-00001" summary="add massage to the welcome page">
       <created>1514918984195</created>
@@ -631,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516653492872</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix background image">
+      <created>1517764053425</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1517764053425</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57734000" />
+    <option name="totallyTimeSpent" value="60069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -679,7 +688,8 @@
     <MESSAGE value="fix changes" />
     <MESSAGE value="add add event button" />
     <MESSAGE value="add facebook button" />
-    <option name="LAST_COMMIT_MESSAGE" value="add facebook button" />
+    <MESSAGE value="fix background image" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix background image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,7 +753,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
           <caret line="89" column="89" lean-forward="true" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="89" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -957,7 +969,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="73" lean-forward="false" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="73" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,7 +1185,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="73" lean-forward="false" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="73" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,7 +1401,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="73" lean-forward="false" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="73" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1607,7 +1625,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1821,7 +1841,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2409,9 +2431,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cesium-1.39/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="92" column="6" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
