@@ -137,47 +137,47 @@ var goodAnswerDes = [
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+🎉✌🎉
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+🎇😎🎇
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+😊😊😊
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+👏👏👏
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+🥇🤩🥇
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+🎉💖🎉
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+🎇🎉🎊
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+🎊💪🎊
         </h1>
     </span>`,
     `<span>
         <h1 style="text-align: center; font-size:500%;">
-
+🎉🤙🎉
         </h1>
     </span>`,
 ];
