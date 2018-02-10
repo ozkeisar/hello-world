@@ -33,7 +33,7 @@ var finalPlace = viewer.entities.add({
 );
 
 var Q1 = viewer.entities.add({
-    name: 'שאלה ראשונה',
+    name: '',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             -109.080842, 45.002073,
@@ -58,7 +58,7 @@ Q1.polygon.height = 250000;
 
 
 var Q2 = viewer.entities.add({
-    name:'שאלה שניה',
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             145.6001141667366,-32.025114493862056,
@@ -74,7 +74,7 @@ var Q2 = viewer.entities.add({
 });
 
 var Q3 = viewer.entities.add({
-    name:'שאלה שלישית',
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             -30.385093688964844,71.66323089667497,
@@ -92,7 +92,7 @@ var Q3 = viewer.entities.add({
 
 
 var Q4 = viewer.entities.add({
-    name:'שאלה רביעית',
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             34.76499684154987,32.08735369437486,
@@ -110,7 +110,7 @@ var Q4 = viewer.entities.add({
 
 
 var Q5 = viewer.entities.add({
-    name:'שאלה חמישית',
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             35.09862072765827,32.17444781992721,
@@ -129,7 +129,7 @@ var Q5 = viewer.entities.add({
 
 
 var Q6 = viewer.entities.add({
-    name:stagesName[3],
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             34.96026249602437,29.549850656769742,
@@ -145,7 +145,7 @@ var Q6 = viewer.entities.add({
 });
 
 var Q7 = viewer.entities.add({
-    name:stagesName[4],
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             35.38856282830238,31.451652600701845,
@@ -162,7 +162,7 @@ var Q7 = viewer.entities.add({
 
 
 var Q8 = viewer.entities.add({
-    name:stagesName[5],
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             2.3130619525909424,48.878913139139236,
@@ -179,7 +179,7 @@ var Q8 = viewer.entities.add({
 
 
 var Q9 = viewer.entities.add({
-    name:stagesName[6],
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             34.76222578436136,32.06815496600778,
@@ -196,7 +196,7 @@ var Q9 = viewer.entities.add({
 
 
 var Q10 = viewer.entities.add({
-    name:stagesName[7],
+    name:'',
     polygon: {
         hierarchy: Cesium.Cartesian3.fromDegreesArray([
             46.914710998535156,15.64287417935967,
