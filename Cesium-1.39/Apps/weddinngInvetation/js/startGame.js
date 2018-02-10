@@ -89,13 +89,13 @@ function wrongAnswer(Entity) {
         setTimeout(function() {
             // viewer.selectedEntity = Entity;
             console.log('falseAnswer',randInt(0,10));
-            falseAnswer.polygon.material = falsePictures[randInt(0,10)];
+            falseAnswer.polygon.material = falsePictures[randInt(0,9)];
         }, 100);
     }, 2800);
 
 }
 function goodAnswer(thisQ,Entity) {
-    thisQ.description = goodAnswerDes[randInt(0,10)];
+    thisQ.description = goodAnswerDes[randInt(0,9)];
     // viewer.selectedEntity = null;
     viewer.flyTo(Entity).then(function (result) {
             if (result) {

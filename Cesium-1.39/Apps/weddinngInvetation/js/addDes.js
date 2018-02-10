@@ -130,53 +130,63 @@ falseAnswer.polygon.height = 4250000;
 
 
 var goodAnswerDes = [
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">כל הכבוד!</h4>
+        <h1 class="messageSize">
 🎊👌🎊
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">קלעת בול!</h4>
+        <h1 class="messageSize">
 🎉✌🎉
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">מרשים!</h4>
+        <h1 class="messageSize">
 🎇😎🎇
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">ניחוש טוב!</h4>
+        <h1 class="messageSize">
 😊😊😊
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">נכון מאוד!</h4>
+        <h1 class="messageSize">
 👏👏👏
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">מדויק!</h4>
+        <h1 class="messageSize">
 🥇🤩🥇
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">בינגו!</h4>
+        <h1 class="messageSize">
 🎉💖🎉
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">שולטט!</h4>
+        <h1 class="messageSize">
 🎇🎉🎊
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">אין כמוך!</h4>
+        <h1 class="messageSize">
 🎊💪🎊
         </h1>
     </span>`,
-    `<span>
-        <h1 style="text-align: center; font-size:500%;">
+    buttonStyle+`<span>
+<h4 class="titleMessageSize">מהמם!</h4>
+        <h1 class="messageSize">
 🎉🤙🎉
         </h1>
     </span>`,

@@ -177,6 +177,16 @@ width: 100%;
   right: 0;
 }
 
+.titleMessageSize{
+    text-align: center;
+    font-size:200%;
+}
+
+.MessageSize{
+    text-align: center;
+    font-size:200%;
+}
+
 </style>
 `;
 }else{
@@ -286,6 +296,17 @@ width: 100%;
   opacity: 1;
   right: 0;
 }
+
+.titleMessageSize{
+    text-align: center;
+    font-size:250%;
+}
+
+.MessageSize{
+    text-align: center;
+    font-size:500%;
+}
+
 
 </style>
 `;
