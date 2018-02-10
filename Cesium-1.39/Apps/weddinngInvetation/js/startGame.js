@@ -40,6 +40,8 @@ var mailLink = "mailto:galid65432@gmail.com?subject="+subjectHead+"&body="+subje
 var addToCalendar = calendar.url+`?action=`+calendar.action+`&text=`+calendar.text+`&dates=`+calendar.dates+`&details=`+calendar.details+`&location=`+calendar.location;
 // mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News
 //
+
+
 function openInNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
@@ -93,8 +95,8 @@ function wrongAnswer(Entity) {
 
 }
 function goodAnswer(thisQ,Entity) {
-
-    viewer.selectedEntity = null;
+    thisQ.description = goodAnswerDes[randInt(0,10)];
+    // viewer.selectedEntity = null;
     viewer.flyTo(Entity).then(function (result) {
             if (result) {
                 viewer.selectedEntity = Entity;

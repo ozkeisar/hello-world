@@ -129,6 +129,61 @@ var falseAnswer = viewer.entities.add({
 falseAnswer.polygon.height = 4250000;
 
 
+var goodAnswerDes = [
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+🎊👌🎊
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+    `<span>
+        <h1 style="text-align: center; font-size:500%;">
+
+        </h1>
+    </span>`,
+];
+
+
+
 Q1.description = `\
     `+buttonStyle+`\
     <span>\
