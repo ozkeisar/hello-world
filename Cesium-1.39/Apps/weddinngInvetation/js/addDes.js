@@ -163,7 +163,7 @@ var goodAnswerDes = [
     buttonStyle+`<span>
 <h4 class="titleMessageSize">מדויק!</h4>
         <h1 class="messageSize">
-🥇🤩🥇
+💥💯💥
         </h1>
     </span>`,
     buttonStyle+`<span>
@@ -187,7 +187,7 @@ var goodAnswerDes = [
     buttonStyle+`<span>
 <h4 class="titleMessageSize">מהמם!</h4>
         <h1 class="messageSize">
-🎉🤙🎉
+🎉🥂🎉
         </h1>
     </span>`,
 ];
