@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6032d96e-075f-4026-9d7f-7a35cb4c553f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/addEntetis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js" afterPath="$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\dev\git\wedding invitation\hello-world" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -270,8 +268,8 @@
       <file leaf-file-name="startGame.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+            <state relative-caret-position="454">
+              <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -558,7 +556,7 @@
       <workItem from="1518460030429" duration="2315000" />
       <workItem from="1519581519014" duration="8414000" />
       <workItem from="1519736058346" duration="546000" />
-      <workItem from="1528129825193" duration="16415000" />
+      <workItem from="1528129825193" duration="16552000" />
     </task>
     <task id="LOCAL-00001" summary="add massage to the welcome page">
       <created>1514918984195</created>
@@ -749,11 +747,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528724328627</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="move the image up little">
+      <created>1528730804624</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1528730804624</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95686000" />
+    <option name="totallyTimeSpent" value="95823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -802,7 +807,8 @@
     <MESSAGE value="fix mobile backround image" />
     <MESSAGE value="add good Answer massage" />
     <MESSAGE value="move the ARO Form down in mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="move the ARO Form down in mobile" />
+    <MESSAGE value="move the image up little" />
+    <option name="LAST_COMMIT_MESSAGE" value="move the image up little" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2582,8 +2588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cesium-1.39/Apps/weddinngInvetation/js/startGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        <state relative-caret-position="454">
+          <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
           <folding />
         </state>
       </provider>
