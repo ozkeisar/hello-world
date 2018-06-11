@@ -1,14 +1,14 @@
 var buttonStyle;
 var falsePictures = [
-    './asserts/img/fails/1.jpg',
-    './asserts/img/fails/2.jpg',
-    './asserts/img/fails/3.jpg',
-    './asserts/img/fails/4.jpg',
-    './asserts/img/fails/5.jpg',
-    './asserts/img/fails/6.jpg',
-    './asserts/img/fails/7.jpg',
-    './asserts/img/fails/8.jpg',
-    './asserts/img/fails/9.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/1.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/2.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/3.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/4.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/5.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/6.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/7.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/8.jpg',
+    './Apps/weddinngInvetation/asserts/img/fails/9.jpg',
 ];
 var isMobileDevice ;
 function randInt(min, max) {
@@ -188,9 +188,17 @@ width: 100%;
 }
 
 </style>
+<!--<script>-->
+<!--//           var tempTop = document.getElementsByClassName('cesium-infoBox cesium-infoBox-visible');-->
+           <!--parent.console.log('456',tempTop);-->
+<!--</script>-->
 `;
 }else{
     buttonStyle = `
+<!--<script>-->
+<!--//           var tempTop = document.getElementsByClassName('cesium-infoBox cesium-infoBox-visible');-->
+          <!--parent.console.log('456',tempTop);-->
+<!--</script>-->
 <style>
     .button {
     

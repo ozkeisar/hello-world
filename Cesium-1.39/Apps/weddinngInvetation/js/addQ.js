@@ -1,16 +1,20 @@
 
-var stagesName = [
-    'שאלה ראשונה',
-    'שאלה שניה',
-    'שאלה שלישית',
-    'שאלה רביעית',
-    'שאלה חמישית',
-    'שאלה שישית',
-    'שאלה שביעית',
-    'שאלה שמינית',
-    'שאלה תשיעית',
-    'שאלה עשירית',
-];
+
+var imageUrl = {
+    finalPlace:'./Apps/weddinngInvetation/asserts/img/final_p.jpg',
+    Q1: './Apps/weddinngInvetation/asserts/img/InkedQ_1_11.jpg',
+    Q2: './Apps/weddinngInvetation/asserts/img/good/q2.jpg',
+    Q3: './Apps/weddinngInvetation/asserts/img/good/q3.jpg',
+    Q4: './Apps/weddinngInvetation/asserts/img/good/q4.jpg',
+    Q5: './Apps/weddinngInvetation/asserts/img/good/q5.JPG',
+    Q6: './Apps/weddinngInvetation/asserts/img/good/q6.jpg',
+    Q7: './Apps/weddinngInvetation/asserts/img/good/q7.jpg',
+    Q8: './Apps/weddinngInvetation/asserts/img/good/q8.jpeg',
+    Q9: './Apps/weddinngInvetation/asserts/img/good/q9.jpg',
+    Q10:'./Apps/weddinngInvetation/asserts/img/good/q10.jpeg',
+    Q11:'./Apps/weddinngInvetation/asserts/img/good/q11.jpeg'
+
+}
 
 
 // var weddingPlaceFinal =
@@ -25,7 +29,7 @@ var finalPlace = viewer.entities.add({
                 35.64970743433264,32.7376597273307
             ]),
             height: 0,
-            material: './asserts/img/final_p.jpg',
+            material: imageUrl.finalPlace /*'./asserts/img/final_p.jpg'*/,
             outline: true,
             outlineColor: Cesium.Color.BLACK
         }
@@ -49,7 +53,7 @@ var Q1 = viewer.entities.add({
             -111.047063, 44.476286,
             -111.05254, 45.002073]),
         height: 0,
-        material: './asserts/img/InkedQ_1_11.jpg',
+        material: imageUrl.Q1/*'./asserts/img/InkedQ_1_11.jpg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -67,7 +71,7 @@ var Q2 = viewer.entities.add({
             145.60050196524912,-32.03482871982786
         ]),
         height: 0,
-        material: './asserts/img/good/q2.jpg',
+        material: imageUrl.Q2/*'./asserts/img/good/q2.jpg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -83,7 +87,7 @@ var Q3 = viewer.entities.add({
             -30.331663020908252,71.1209533055771
         ]),
         height: 0,
-        material: './asserts/img/good/q3.jpg',
+        material: imageUrl.Q3/*'./asserts/img/good/q3.jpg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -101,7 +105,7 @@ var Q4 = viewer.entities.add({
             34.765050503855264,32.0852993693967
         ]),
         height: 0,
-        material: './asserts/img/good/q4.jpg',
+        material: imageUrl.Q4/*'./asserts/img/good/q4.jpg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -119,7 +123,7 @@ var Q5 = viewer.entities.add({
             35.09848328644944,32.1717688294325
         ]),
         height: 0,
-        material: './asserts/img/good/q5.JPG',
+        material: imageUrl.Q5/*'./asserts/img/good/q5.JPG'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -138,7 +142,7 @@ var Q6 = viewer.entities.add({
             34.9602644504144,29.54935599089640
         ]),
         height: 0,
-        material: './asserts/img/good/q6.jpg',
+        material: imageUrl.Q6/*'./asserts/img/good/q6.jpg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -154,7 +158,7 @@ var Q7 = viewer.entities.add({
             35.38865268263885,31.44945596905344
         ]),
         height: 0,
-        material: './asserts/img/good/q7.jpg',
+        material: imageUrl.Q7/*'./asserts/img/good/q7.jpg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -171,7 +175,7 @@ var Q8 = viewer.entities.add({
             2.312387373829665,48.846620043130
         ]),
         height: 0,
-        material: './asserts/img/good/q8.jpeg',
+        material: imageUrl.Q8/*'./asserts/img/good/q8.jpeg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -188,7 +192,7 @@ var Q9 = viewer.entities.add({
             34.76223115540324,32.06700939529838
         ]),
         height: 0,
-        material: './asserts/img/good/q9.jpg',
+        material: imageUrl.Q9/*'./asserts/img/good/q9.jpg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -205,7 +209,7 @@ var Q10 = viewer.entities.add({
             46.922301930208164,14.52519075638728
         ]),
         height: 0,
-        material: './asserts/img/good/q10.jpeg',
+        material: imageUrl.Q10/*'./asserts/img/good/q10.jpeg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }
@@ -222,7 +226,7 @@ var Q11 = viewer.entities.add({
             30.194821294146095,48.7361262180267
         ]),
         height: 0,
-        material: './asserts/img/good/q11.jpeg',
+        material: imageUrl.Q11/*'./asserts/img/good/q11.jpeg'*/,
         outline: true,
         outlineColor: Cesium.Color.BLACK
     }

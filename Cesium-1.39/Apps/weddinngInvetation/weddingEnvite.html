@@ -17,14 +17,113 @@
           width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
       }
   </style>
+  <style>
+    .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 2% 4%;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 350%;
+      margin: 16px 8px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+
+    .button2:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .button5 {
+      background-color: #f4511e; /* Green */
+      border: none;
+      color: white;
+      padding: 7.5px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 22px;
+      margin: 16px 8px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+
+    .button5:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .button5{
+      top: 56%;
+      right: 43%;
+      margin: auto;
+      position: absolute;
+      /*left: 82%;*/
+      /*top: 72%;*/
+    }
+
+    body {
+      background: url(./asserts/img/cover_1_end.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    .middle{
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    .button {
+      /*position: center;*/
+      margin: auto;
+      position: absolute;
+      /*bottom: 42%;*/
+      /*left: 34%;*/
+      top: 35%;
+      right: 36%;
+    }
+
+    #temp{
+      margin-top: 0%;
+      width: 100%;
+      height: 100%;
+    }
+
+    /*iframe {*/
+      /*top: 75px !important;*/
+    /*}*/
+
+  </style>
+  <!--<iframe class="cesium-infoBox-iframe" data-bind="style : { maxHeight : maxHeightOffset(40) }" allowfullscreen="true" src="about:blank" style="max-height: 602px; height: 256.813px;"></iframe>-->
 </head>
 <body>
-  <div id="cesiumContainer" onclick="requestFullScreen()"></div>
+  <div id="temp">
+    <div>
+    <span dir="rtl">
+        <h1 class="middle" id="headline" style="font-size:500%; color: #0086b3; font-style: italic;   "  align="center">איתן וגלי מתחתנים!</h1>
+    </span>
+    </div>
+    <div class="center">
+        <button class="button button2" id="startGameButton" onclick="startGame()" >התחל משחק</button>
+    </div>
+
+    <div>
+      <a href="./asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" >
+        <button class="button5" id="quickInvite">ההזמנה לעצלנים</button>
+      </a>
+    </div>
+
+  </div>
+<div id="cesiumContainer" onclick="requestFullScreen()" ></div>
+
+  <script src="js/enterScreen.js"></script>
   <script src="https://apis.google.com/js/api.js"></script>
   <script src="js/addEntetis.js"></script>
   <script src="js/startGame.js" type="text/javascript"></script>
   <script src="js/addQ.js"></script>
   <script src="js/addDes.js"></script>
+
   <embed id="player" src="./asserts/mp3/ביני%20לנדאו%20-%20משכן.mp3" width="180" height="90" loop="true" autostart="true" hidden="true" />
 </body>
 </html>

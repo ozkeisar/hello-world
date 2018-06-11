@@ -40,6 +40,18 @@ var mailLink = "mailto:galid65432@gmail.com?subject="+subjectHead+"&body="+subje
 var addToCalendar = calendar.url+`?action=`+calendar.action+`&text=`+calendar.text+`&dates=`+calendar.dates+`&details=`+calendar.details+`&location=`+calendar.location;
 // mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News
 //
+//
+// viewer.screenSpaceEventHandler.setInputAction(function onLeftClick2(movement) {
+//     console.log('click',viewer.selectedEntity);
+//
+//     // var pickedFeature = viewer.scene.pick(movement.position);
+//     // if (!Cesium.defined(pickedFeature)) {
+//     //     // nothing picked
+//     //     return;
+//     // }
+//     // viewer.scene.render();
+//     // var worldPosition = viewer.scene.pickPosition(movement.position));
+// }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
 
 function openInNewTab(url) {
@@ -70,8 +82,6 @@ function setKey(event) {
         camera.rotateUp(Cesium.Math.toRadians(verticalDegrees));
     }
 }
-
-
 
 
 

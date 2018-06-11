@@ -25,7 +25,7 @@ if( !isMobileDevice ) {
         <button style="color: BLACK" class="button-empty button3 "
         onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
         <p>
-        <a href="./asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" >
+        <a href="./Apps/weddinngInvetation/asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" >
             <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
         </a>
         </p>
@@ -77,7 +77,7 @@ if( !isMobileDevice ) {
         onClick="parent.window.open(parent.mailLink)">אשר במייל</button>
         </p>
         <p>
-        <a href="./asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank">
+        <a href="./Apps/weddinngInvetation/asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank">
             <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
         </a>
         </p>
@@ -90,7 +90,7 @@ if( !isMobileDevice ) {
     <!--<h1 align="center">ניצחת במשחק והגעת להזמנה</h1>-->
     <h3 style="text-align: center;">עין שוקו נובע בדרום רמת הגולן כקילומטר ממערב לקיבוץ מבוא חמה, הצופה לכנרת ואל הרי הגליל</h3>
     <h2 style="text-align: center;">נוף מקסים</h2>
-    <button style="color: BLACK" class="button button2 green all-line" onClick="parent.toWeddingPlace()" >להזמנה... ולאולם</button>
+        <button style="color: BLACK" class="button button2 green all-line" onClick="parent.toWeddingPlace()" >להזמנה... ולאולם</button>
 
    
     <!--<h2>-->
