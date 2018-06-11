@@ -188,17 +188,9 @@ width: 100%;
 }
 
 </style>
-<!--<script>-->
-<!--//           var tempTop = document.getElementsByClassName('cesium-infoBox cesium-infoBox-visible');-->
-           <!--parent.console.log('456',tempTop);-->
-<!--</script>-->
 `;
 }else{
     buttonStyle = `
-<!--<script>-->
-<!--//           var tempTop = document.getElementsByClassName('cesium-infoBox cesium-infoBox-visible');-->
-          <!--parent.console.log('456',tempTop);-->
-<!--</script>-->
 <style>
     .button {
     

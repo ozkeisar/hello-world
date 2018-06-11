@@ -10,6 +10,8 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
 });
 viewer.infoBox.frame.removeAttribute('sandbox');
 var camera = viewer.camera;
+
+
 var subjectHead = "אישור השתתפות בחתונה של איתן וגלי המתוקים";
 var subjectBody =  `שם מלא:  
         מספר משתתפים:
@@ -40,18 +42,6 @@ var mailLink = "mailto:galid65432@gmail.com?subject="+subjectHead+"&body="+subje
 var addToCalendar = calendar.url+`?action=`+calendar.action+`&text=`+calendar.text+`&dates=`+calendar.dates+`&details=`+calendar.details+`&location=`+calendar.location;
 // mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News
 //
-//
-// viewer.screenSpaceEventHandler.setInputAction(function onLeftClick2(movement) {
-//     console.log('click',viewer.selectedEntity);
-//
-//     // var pickedFeature = viewer.scene.pick(movement.position);
-//     // if (!Cesium.defined(pickedFeature)) {
-//     //     // nothing picked
-//     //     return;
-//     // }
-//     // viewer.scene.render();
-//     // var worldPosition = viewer.scene.pickPosition(movement.position));
-// }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
 
 
 function openInNewTab(url) {
@@ -81,7 +71,32 @@ function setKey(event) {
     } else if (event.keyCode === 40) {  // down arrow
         camera.rotateUp(Cesium.Math.toRadians(verticalDegrees));
     }
+
 }
+
+function PressKey() {
+    var horizontalDegrees = 3.0;
+    var verticalDegrees = 3.0;
+    var viewRect = camera.computeViewRectangle();
+    if (Cesium.defined(viewRect)) {
+        horizontalDegrees *= Cesium.Math.toDegrees(viewRect.east - viewRect.west) / 360.0;
+        verticalDegrees *= Cesium.Math.toDegrees(viewRect.north - viewRect.south) / 180.0;
+    }
+
+    this.arrowRight= ()=>{
+        camera.rotateRight(Cesium.Math.toRadians(horizontalDegrees));
+    }
+    this.arrowLeft = ()=>{
+        camera.rotateLeft(Cesium.Math.toRadians(horizontalDegrees));
+    }
+    this.arrowUp = ()=>{
+        camera.rotateDown(Cesium.Math.toRadians(verticalDegrees));
+    }
+    this.arrowDown = ()=>{
+        camera.rotateUp(Cesium.Math.toRadians(verticalDegrees));
+    }
+}
+// let pressKey = new PressKey();
 
 
 
@@ -104,14 +119,45 @@ function wrongAnswer(Entity) {
     }, 2800);
 
 }
+
 function goodAnswer(thisQ,Entity) {
-    thisQ.description = goodAnswerDes[randInt(0,9)];
-    // viewer.selectedEntity = null;
-    viewer.flyTo(Entity).then(function (result) {
+    thisQ.description = goodAnswerDes[randInt(0, 9)];
+
+    if(isMobileDevice){
+        viewer.flyTo(Entity,{
+            offset : {
+                heading : Cesium.Math.toRadians(0.0),
+                pitch : Cesium.Math.toRadians(-80.0),
+            }
+        }).then(function (result) {
+            if (result) {
+                //move the image little bit up
+                let pressKey = new PressKey();
+                let i = 0;
+                var moveUp = setInterval(()=>{
+                    pressKey.arrowDown();
+                    i++;
+                    if(i === 10){
+                        clearInterval(moveUp);
+                    }
+                },50);
+                // pressKey.arrowDown();
+                // pressKey.arrowDown();
+                // pressKey.arrowDown();
+                viewer.selectedEntity = Entity;
+            }
+        });
+    }else {
+        viewer.flyTo(Entity).then(function (result) {
             if (result) {
                 viewer.selectedEntity = Entity;
             }
         });
+    }
+
+
+
+
 }
 
 function toWeddingPlace() {
