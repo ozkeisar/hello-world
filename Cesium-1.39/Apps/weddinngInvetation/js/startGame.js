@@ -141,9 +141,6 @@ function goodAnswer(thisQ,Entity) {
                         clearInterval(moveUp);
                     }
                 },50);
-                // pressKey.arrowDown();
-                // pressKey.arrowDown();
-                // pressKey.arrowDown();
                 viewer.selectedEntity = Entity;
             }
         });
@@ -195,7 +192,7 @@ function toWeddingPlace() {
 
 setTimeout(function() {
     falseAnswer.polygon.material = falsePictures[randInt(0,10)];
-    viewer.flyTo(Q1);
+    viewer.flyTo(objects[0]);
     // viewer.flyTo(finalPlace);
 }, 2000);
 

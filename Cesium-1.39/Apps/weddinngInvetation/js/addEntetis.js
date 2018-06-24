@@ -10,7 +10,6 @@ var falsePictures = [
     './Apps/weddinngInvetation/asserts/img/fails/8.jpg',
     './Apps/weddinngInvetation/asserts/img/fails/9.jpg',
 ];
-var isMobileDevice ;
 function randInt(min, max) {
     return Math.floor(Math.random() * (max -min +1))+min;
 }
@@ -38,30 +37,10 @@ function requestFullScreen() {
     }
 }
 
-var isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i);
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
-};
 
-if( isMobile.any() ) {
+if( isMobileDevice ) {
 
-    isMobileDevice = true;
+
     buttonStyle = `
 <style>
     .button {
