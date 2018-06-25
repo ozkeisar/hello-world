@@ -1,5 +1,5 @@
 
-var objects = [];
+var cesiumObjects = [];
 
 
 var finalPlace = viewer.entities.add({
@@ -24,12 +24,12 @@ var finalPlace = viewer.entities.add({
 
 for(let i =0 ; i<locations.arr.length; i++){
 
-    objects.push(viewer.entities.add({
-        name: '',
+    cesiumObjects.push(viewer.entities.add({
+        name: objects[i].text.name,
         polygon: {
             hierarchy: Cesium.Cartesian3.fromDegreesArray(locations.arr[i]),
             height: 0,
-            material: imageUrl.arr[i],
+            material: objects[i].imageUrl,
             outline: true,
             outlineColor: Cesium.Color.BLACK
         }
@@ -37,5 +37,5 @@ for(let i =0 ; i<locations.arr.length; i++){
 
 }
 
-objects.push(finalPlace);
-objects[0].polygon.height = 250000;
+cesiumObjects.push(finalPlace);
+cesiumObjects[0].polygon.height = 250000;

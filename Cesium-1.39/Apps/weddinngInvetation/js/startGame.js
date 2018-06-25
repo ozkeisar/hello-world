@@ -192,7 +192,7 @@ function toWeddingPlace() {
 
 setTimeout(function() {
     falseAnswer.polygon.material = falsePictures[randInt(0,10)];
-    viewer.flyTo(objects[0]);
+    viewer.flyTo(cesiumObjects[0]);
     // viewer.flyTo(finalPlace);
 }, 2000);
 

@@ -74,8 +74,3 @@ let QText = [
 
 
 ];
-
-
-let places = {
-
-}
