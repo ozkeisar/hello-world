@@ -12,13 +12,30 @@ var finalPlace = viewer.entities.add({
                 35.64970743433264,32.7376597273307
             ]),
             height: 0,
-            material: imageUrl.finalPlace /*'./asserts/img/final_p.jpg'*/,
+            material: imageUrl.finalPlace ,
             outline: true,
             outlineColor: Cesium.Color.BLACK
         }
     }
 );
 
+var falseAnswer = viewer.entities.add({
+    name:'תשובה לא נכונה',
+    polygon: {
+        hierarchy: Cesium.Cartesian3.fromDegreesArray([
+            -57.362022399902344,-17.45940269194599,
+            -54.703330993652344,-17.464642709350755,
+            -54.65239778591348,-19.32863158655128,
+            -57.323570251464844,-19.343540769982056
+        ]),
+        height: 0,
+        material: falsePictures[randInt(0,10)],
+        outline: true,
+        outlineColor: Cesium.Color.BLACK
+    }
+
+});
+falseAnswer.polygon.height = 4250000;
 
 
 

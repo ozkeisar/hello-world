@@ -4,9 +4,45 @@
 
 Cesium.BingMapsApi.defaultKey = 'AuuP9UJpY_7d3-SqEP81ZmlqrZnH8wJVQF5jHVJO12QLcNMLfQxifx5aSUY-kvgW';
 // var viewer = new Cesium.Viewer('cesiumContainer');
+var providerViewModels = [];
+providerViewModels.push(new Cesium.ProviderViewModel({
+    name : 'Bing Maps Aerial with Labels',
+    iconUrl : Cesium.buildModuleUrl('Widgets/Images/ImageryProviders/bingAerialLabels.png'),
+    tooltip : 'Bing Maps aerial imagery with label overlays \nhttp://www.bing.com/maps',
+    creationFunction : function() {
+        return new Cesium.BingMapsImageryProvider({
+            url : '//dev.virtualearth.net',
+            mapStyle : Cesium.BingMapsStyle.AERIAL_WITH_LABELS
+        });
+    }
+}));
+
+//
+// var viewer = new Cesium.Viewer('cesiumContainer', {
+//     animation: false,
+//     timeline: false,
+//     imageryProviderViewModels : providerViewModels,
+//     selectedImageryProviderViewModel : providerViewModels[0],
+//     // terrainProviderViewModels : terrainViewModels,
+//     // selectedTerrainProviderViewModel : terrainViewModels[1]
+// });
+
+
+
+
 var viewer = new Cesium.Viewer('cesiumContainer', {
     animation: false,
-    timeline: false
+    timeline: false,
+    baseLayerPicker:false,
+    vrButton:true,
+    geocoder:false,
+    homeButton:false,
+    // infoBox:false,
+    sceneModePicker:false,
+    selectionIndicator:false,
+    navigationHelpButton:false,
+    // navigationInstructionsInitiallyVisible:false,
+    scene3DOnly:true,
 });
 viewer.infoBox.frame.removeAttribute('sandbox');
 var camera = viewer.camera;
@@ -121,7 +157,7 @@ function wrongAnswer(Entity) {
 }
 
 function goodAnswer(thisQ,Entity) {
-    thisQ.description = goodAnswerDes[randInt(0, 9)];
+    thisQ.description = goodAnswerDes[randInt(0, goodAnswerDes.length)];
 
     if(isMobileDevice){
         viewer.flyTo(Entity,{
