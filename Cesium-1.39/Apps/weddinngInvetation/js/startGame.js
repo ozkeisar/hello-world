@@ -217,11 +217,12 @@ let weddingPlaceProprty = {
 }
 
 function toWeddingPlace() {
-    finalPlace.description = weddingPlace2;
+    // finalPlace.description = weddingPlace2;
     finalPlace.name = "הגעת לאולם";
     let weddingPlace = viewer.entities.add(weddingPlaceProprty);
 
-    weddingPlace.description = weddingPlace2;
+    // weddingPlace.description = weddingPlace2;
+    weddingPlace.description = finalPlace.description;
 
     viewer.camera.flyTo({
             destination : Cesium.Cartesian3.fromDegrees(locations.weddingPlace[0],locations.weddingPlace[1],locations.weddingPlace[2]),
