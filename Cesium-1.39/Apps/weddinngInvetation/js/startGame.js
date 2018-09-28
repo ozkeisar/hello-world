@@ -45,6 +45,7 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
     scene3DOnly:true,
 });
 viewer.infoBox.frame.removeAttribute('sandbox');
+viewer.infoBox.allowScripts = true;
 var camera = viewer.camera;
 
 
@@ -158,9 +159,10 @@ function wrongAnswer(Entity) {
 
 function goodAnswer(thisQ,Entity) {
     thisQ.description = goodAnswerDes[randInt(0, goodAnswerDes.length)];
-
+    let duration = 1.0;
     if(isMobileDevice){
         viewer.flyTo(Entity,{
+            duration :duration,
             offset : {
                 heading : Cesium.Math.toRadians(0.0),
                 pitch : Cesium.Math.toRadians(-80.0),
@@ -181,7 +183,9 @@ function goodAnswer(thisQ,Entity) {
             }
         });
     }else {
-        viewer.flyTo(Entity).then(function (result) {
+        viewer.flyTo(Entity,{
+            duration :duration,
+        }).then(function (result) {
             if (result) {
                 viewer.selectedEntity = Entity;
             }
@@ -193,32 +197,34 @@ function goodAnswer(thisQ,Entity) {
 
 }
 
+let weddingPlaceProprty = {
+    name : 'אולמי השרון כפר סבא',
+    position : Cesium.Cartesian3.fromDegrees(locations.weddingPlace[0],locations.weddingPlace[1]),
+    point : {
+        pixelSize : 8,
+        color : Cesium.Color.BLUE,
+        outlineColor : Cesium.Color.WHITE,
+        outlineWidth : 3
+    },
+    label : {
+        text : 'אבס רפכ ןורשה ימלוא',
+        font : '14pt monospace',
+        style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+        outlineWidth : 2,
+        verticalOrigin : Cesium.VerticalOrigin.BOTTOM,
+        pixelOffset : new Cesium.Cartesian2(0, -9)
+    }
+}
+
 function toWeddingPlace() {
     finalPlace.description = weddingPlace2;
     finalPlace.name = "הגעת לאולם";
-    let weddingPlace = viewer.entities.add({
-        name : 'אולמי השרון כפר סבא',
-        position : Cesium.Cartesian3.fromDegrees(34.892431,32.177826),
-        point : {
-            pixelSize : 8,
-            color : Cesium.Color.BLUE,
-            outlineColor : Cesium.Color.WHITE,
-            outlineWidth : 3
-        },
-        label : {
-            text : 'אבס רפכ ןורשה ימלוא',
-            font : '14pt monospace',
-            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-            outlineWidth : 2,
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM,
-            pixelOffset : new Cesium.Cartesian2(0, -9)
-        }
-    });
+    let weddingPlace = viewer.entities.add(weddingPlaceProprty);
 
     weddingPlace.description = weddingPlace2;
 
     viewer.camera.flyTo({
-            destination : Cesium.Cartesian3.fromDegrees(34.892431,32.177826, 850.0),
+            destination : Cesium.Cartesian3.fromDegrees(locations.weddingPlace[0],locations.weddingPlace[1],locations.weddingPlace[2]),
         duration : 20.0
     });
 }

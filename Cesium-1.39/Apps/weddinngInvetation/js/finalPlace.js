@@ -1,29 +1,52 @@
 
 let weddingPlace2;
 
-if( !isMobileDevice ) {
-    weddingPlace2 = `
-    `+buttonStyle+`
-    <span dir="rtl">
+let des = buttonStyle+`<script>
+</script>
+ <span dir="rtl">
     <h2 style="text-align: center;">נשמח שתאשרו את השתתפותכם באירוע</h2>
+    <button onclick="inc()">+</button>
+    <input id="numOfPeople" type="number" maxlength="1" value="1">
+    <button onclick="dec()">-</button>
+  <input type="submit" value="אשר השתתפות">
+    
      <p>
         <a href="https://www.facebook.com/events/589872901358553/?ti=cl" target="_blank" >
             <button style="color: BLACK" class="button button2 facebook-blue all-line border-size" >הצטרף לאירוע בפייסבוק</button>
         </a>
         </p>
-        <button style="color: BLACK" class="button-empty button3 "
-        onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button> 
         <button style="color: BLACK" class="button-empty button3"
         onClick="parent.window.open(parent.addToCalendar)">הוסף ליומן</button>        
-        <button style="color: BLACK" class="button-empty button3 "
-        onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
-        <p>
         <a href="./Apps/weddinngInvetation/asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" >
             <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
         </a>
         </p>
-    </span>`;
+    </span>
+`
 
+if( !isMobileDevice ) {
+    // weddingPlace2 = `
+    // `+buttonStyle+`
+    // <span dir="rtl">
+    // <h2 style="text-align: center;">נשמח שתאשרו את השתתפותכם באירוע</h2>
+    //  <p>
+    //     <a href="https://www.facebook.com/events/589872901358553/?ti=cl" target="_blank" >
+    //         <button style="color: BLACK" class="button button2 facebook-blue all-line border-size" >הצטרף לאירוע בפייסבוק</button>
+    //     </a>
+    //     </p>
+    //     <button style="color: BLACK" class="button-empty button3 "
+    //     onClick="parent.openInNewTab(parent.whatsappLink)">אשר השתתפות בווצאפ</button>
+    //     <button style="color: BLACK" class="button-empty button3"
+    //     onClick="parent.window.open(parent.addToCalendar)">הוסף ליומן</button>
+    //     <button style="color: BLACK" class="button-empty button3 "
+    //     onClick="parent.window.open(parent.mailLink)">אשר השתתפות במייל</button>
+    //     <p>
+    //     <a href="./Apps/weddinngInvetation/asserts/pdf/wedding invitation gali & eitan.pdf" target="_blank" >
+    //         <button style="color: BLACK" class="button button2 green all-line border-size" >⬇הורד את ההזמנה⬇</button>
+    //     </a>
+    //     </p>
+    // </span>`;
+    weddingPlace2 = des;
 
     finalPlace.description = `
     `+buttonStyle+`
@@ -32,7 +55,13 @@ if( !isMobileDevice ) {
     <!--<h1 align="center">ניצחת במשחק והגעת להזמנה</h1>-->
     <h2 style="text-align: center;">עין שוקו נובע בדרום רמת הגולן כקילומטר ממערב לקיבוץ מבוא חמה, הצופה לכנרת ואל הרי הגליל</h2>
     <h2 style="text-align: center;">נוף מקסים</h2>
-    <button style="color: BLACK" class="button button2 green all-line" onClick="parent.toWeddingPlace()" >להזמנה... ולאולם</button>
+    <span style="align:center; display: inline;">
+    <button style="align:center" class="button button2 green " onClick="parent.toWeddingPlace()" >לאולם</button>
+    <a href="./Apps/weddinngInvetation/arrivalConfirmation.html" target="_blank" >
+                <button style="align:center" class="button button2 green "  >להזמנה</button>
+        </a>
+    </span>
+    
 
    
     <!--<h2>-->
