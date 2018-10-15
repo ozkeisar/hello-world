@@ -159,7 +159,7 @@ function wrongAnswer(Entity) {
 
 function goodAnswer(thisQ,Entity) {
     thisQ.description = goodAnswerDes[randInt(0, goodAnswerDes.length)];
-    let duration = 1.0;
+    let duration = 7.0;
     if(isMobileDevice){
         viewer.flyTo(Entity,{
             duration :duration,
